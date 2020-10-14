@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>64CFF8D8-F858-40BF-8FE4-19C0C869F073</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>64CFF8D8-F858-40BF-8FE4-19C0C869F073.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624327671.31236899</real>
+			<key>timeStoppedRecording</key>
+			<real>624327847.90635896</real>
+			<key>title</key>
+			<string>Run SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>64CFF8D8-F858-40BF-8FE4-19C0C869F073</string>
+		</dict>
+		<key>B5AD2C99-C9AE-4898-BB41-B52F6CF16D33</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B5AD2C99-C9AE-4898-BB41-B52F6CF16D33.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624383094.07083905</real>
+			<key>timeStoppedRecording</key>
+			<real>624383166.571118</real>
+			<key>title</key>
+			<string>Run SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>B5AD2C99-C9AE-4898-BB41-B52F6CF16D33</string>
+		</dict>
+		<key>C50BE2FF-D7C8-44FF-99D5-FF2F0CA76874</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C50BE2FF-D7C8-44FF-99D5-FF2F0CA76874.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624382428.27071404</real>
+			<key>timeStoppedRecording</key>
+			<real>624382935.59371305</real>
+			<key>title</key>
+			<string>Run SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>C50BE2FF-D7C8-44FF-99D5-FF2F0CA76874</string>
+		</dict>
+		<key>D68F2710-716E-441D-A87A-F9CA6042B916</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D68F2710-716E-441D-A87A-F9CA6042B916.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624382943.68563402</real>
+			<key>timeStoppedRecording</key>
+			<real>624383093.979478</real>
+			<key>title</key>
+			<string>Run SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>D68F2710-716E-441D-A87A-F9CA6042B916</string>
+		</dict>
+		<key>D87CE61A-7B42-4AD5-BE72-F8CDBC516182</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D87CE61A-7B42-4AD5-BE72-F8CDBC516182.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624383166.79874003</real>
+			<key>timeStoppedRecording</key>
+			<real>624383246.627707</real>
+			<key>title</key>
+			<string>Run SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>D87CE61A-7B42-4AD5-BE72-F8CDBC516182</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
