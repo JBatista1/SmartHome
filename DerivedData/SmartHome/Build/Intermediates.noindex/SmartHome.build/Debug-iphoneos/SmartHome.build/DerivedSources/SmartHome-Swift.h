@@ -189,7 +189,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import CoreBluetooth;
 @import CoreGraphics;
 @import Foundation;
-@import ObjectiveC;
 @import UIKit;
 #endif
 
@@ -208,20 +207,43 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
-@class UIButton;
-@class UIImageView;
-@class UITextField;
 @class NSBundle;
 @class NSCoder;
 
-SWIFT_CLASS("_TtC9SmartHome23AddDeviceViewController")
-@interface AddDeviceViewController : UIViewController
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified addButton;
-@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imageDevice;
-@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified nameDevice;
-- (void)viewDidLoad;
+SWIFT_CLASS("_TtC9SmartHome18BaseViewController")
+@interface BaseViewController : UIViewController
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIButton;
+@class UIImageView;
+@class UIView;
+@class UITextField;
+
+SWIFT_CLASS("_TtC9SmartHome23AddDeviceViewController")
+@interface AddDeviceViewController : BaseViewController
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified addButton;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imageDevice;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified contentView;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified nameDevice;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified portEsp;
+- (void)viewDidLoad;
+- (IBAction)chooseImage:(id _Nonnull)sender;
+- (IBAction)addDevice:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+@class UIPickerView;
+
+@interface AddDeviceViewController (SWIFT_EXTENSION(SmartHome)) <UIPickerViewDataSource, UIPickerViewDelegate>
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView * _Nonnull)pickerView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)pickerView:(UIPickerView * _Nonnull)pickerView numberOfRowsInComponent:(NSInteger)component SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)pickerView:(UIPickerView * _Nonnull)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component SWIFT_WARN_UNUSED_RESULT;
+- (void)pickerView:(UIPickerView * _Nonnull)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component;
 @end
 
 @class UIApplication;
@@ -238,18 +260,14 @@ SWIFT_CLASS("_TtC9SmartHome11AppDelegate")
 @end
 
 
-SWIFT_CLASS("_TtC9SmartHome18BaseViewController")
-@interface BaseViewController : UIViewController
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class UILabel;
 
-SWIFT_CLASS("_TtC9SmartHome24DeviceCollectionViewCell")
-@interface DeviceCollectionViewCell : UICollectionViewCell
-@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified devidePhoto;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified deviceName;
+SWIFT_CLASS("_TtC9SmartHome29DevicesHomeCollectionViewCell")
+@interface DevicesHomeCollectionViewCell : UICollectionViewCell
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imageDevice;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified nameDevice;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified status;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified content;
 - (void)awakeFromNib;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -268,19 +286,36 @@ SWIFT_CLASS("_TtC9SmartHome18HomeViewController")
 
 
 
+@class UICollectionViewLayout;
+
+@interface HomeViewController (SWIFT_EXTENSION(SmartHome)) <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (UIEdgeInsets)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout insetForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class CBCentralManager;
+@class CBPeripheral;
+@class NSNumber;
+@class CBService;
+
+@interface HomeViewController (SWIFT_EXTENSION(SmartHome)) <CBCentralManagerDelegate, CBPeripheralDelegate>
+- (void)centralManagerDidUpdateState:(CBCentralManager * _Nonnull)central;
+- (void)centralManager:(CBCentralManager * _Nonnull)central didDiscoverPeripheral:(CBPeripheral * _Nonnull)peripheral advertisementData:(NSDictionary<NSString *, id> * _Nonnull)advertisementData RSSI:(NSNumber * _Nonnull)RSSI;
+- (void)centralManager:(CBCentralManager * _Nonnull)central didConnectPeripheral:(CBPeripheral * _Nonnull)peripheral;
+- (void)centralManager:(CBCentralManager * _Nonnull)central didFailToConnectPeripheral:(CBPeripheral * _Nonnull)peripheral error:(NSError * _Nullable)error;
+- (void)peripheral:(CBPeripheral * _Nonnull)peripheral didDiscoverServices:(NSError * _Nullable)error;
+- (void)peripheral:(CBPeripheral * _Nonnull)peripheral didDiscoverCharacteristicsForService:(CBService * _Nonnull)service error:(NSError * _Nullable)error;
+@end
+
 
 SWIFT_CLASS("_TtC9SmartHome23ImageCollectionViewCell")
 @interface ImageCollectionViewCell : UICollectionViewCell
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imageDevice;
-@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified selectedImage;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC9SmartHome18ParticlePeripheral")
-@interface ParticlePeripheral : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class UIWindow;
@@ -311,9 +346,8 @@ SWIFT_CLASS("_TtC9SmartHome20SearchViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class CBCentralManager;
-@class CBPeripheral;
-@class NSNumber;
+
+
 
 @interface SearchViewController (SWIFT_EXTENSION(SmartHome)) <CBCentralManagerDelegate, CBPeripheralDelegate>
 - (void)centralManagerDidUpdateState:(CBCentralManager * _Nonnull)central;
@@ -328,17 +362,30 @@ SWIFT_CLASS("_TtC9SmartHome20SearchViewController")
 - (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 @end
 
-@class UIView;
 
 SWIFT_CLASS("_TtC9SmartHome27SelectedImageViewController")
 @interface SelectedImageViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UICollectionView * _Null_unspecified imagesTypeCollection;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified confirmButton;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified contentView;
 - (void)viewDidLoad;
 - (IBAction)cancelTap:(id _Nonnull)sender;
-- (IBAction)addImage:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+@interface SelectedImageViewController (SWIFT_EXTENSION(SmartHome)) <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (UIEdgeInsets)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout insetForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+
+
 
 
 

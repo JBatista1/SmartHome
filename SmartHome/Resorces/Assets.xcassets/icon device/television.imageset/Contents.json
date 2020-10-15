@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "tela-de-tv.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

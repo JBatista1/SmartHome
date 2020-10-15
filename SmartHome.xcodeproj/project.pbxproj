@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		52781002DD554202D863D98C /* Pods_SmartHomeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC84770E13F06B19C5711C1E /* Pods_SmartHomeTests.framework */; };
+		9A5BC0202537B95900BD0364 /* DevicesHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5BC01E2537B95900BD0364 /* DevicesHomeCollectionViewCell.swift */; };
+		9A5BC0212537B95900BD0364 /* DevicesHomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A5BC01F2537B95900BD0364 /* DevicesHomeCollectionViewCell.xib */; };
+		9A8B33262537809200486C5E /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8B33252537809200486C5E /* UIImageExtension.swift */; };
+		9A8B33282537861100486C5E /* UIIVieControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8B33272537861100486C5E /* UIIVieControllerExtension.swift */; };
 		9A8EE49025364FDF009CF7B7 /* AddDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8EE48F25364FDF009CF7B7 /* AddDeviceViewController.swift */; };
 		9A8EE497253651FE009CF7B7 /* CollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8EE496253651FE009CF7B7 /* CollectionViewExtension.swift */; };
 		9A8EE49925365223009CF7B7 /* TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8EE49825365223009CF7B7 /* TableViewExtension.swift */; };
-		9A8EE49C253653B5009CF7B7 /* DeviceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8EE49A253653B5009CF7B7 /* DeviceCollectionViewCell.swift */; };
-		9A8EE49D253653B5009CF7B7 /* DeviceCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8EE49B253653B5009CF7B7 /* DeviceCollectionViewCell.xib */; };
 		9A8EE4A02536555F009CF7B7 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8EE49F2536555F009CF7B7 /* Device.swift */; };
 		9A8EE4A225365788009CF7B7 /* UIView+DesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8EE4A125365788009CF7B7 /* UIView+DesignView.swift */; };
 		9A8EE4A42536587B009CF7B7 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8EE4A32536587B009CF7B7 /* SearchViewController.swift */; };
@@ -25,7 +27,6 @@
 		9AD8086425364137005B1554 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD8086225364137005B1554 /* LaunchScreen.storyboard */; };
 		9AD8086F25364137005B1554 /* SmartHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8086E25364137005B1554 /* SmartHomeTests.swift */; };
 		9AEE1C5425365D5C00513E14 /* SelectedImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE1C5325365D5C00513E14 /* SelectedImageViewController.swift */; };
-		9AEE1C56253664E700513E14 /* ParticlePeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE1C55253664E700513E14 /* ParticlePeripheral.swift */; };
 		9AF7AA7025374DDA000AA9CF /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF7AA6F25374DDA000AA9CF /* ImageCollectionViewCell.swift */; };
 		9AF7AA7325375155000AA9CF /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF7AA7225375155000AA9CF /* ArrayExtension.swift */; };
 		9D2C63D7F91BF5DF94A5BF3C /* Pods_SmartHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5053681EECC040589D6610B7 /* Pods_SmartHome.framework */; };
@@ -44,11 +45,13 @@
 /* Begin PBXFileReference section */
 		5053681EECC040589D6610B7 /* Pods_SmartHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B0EEC9B9EEE59563B5B9A3 /* Pods-SmartHomeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartHomeTests.debug.xcconfig"; path = "Target Support Files/Pods-SmartHomeTests/Pods-SmartHomeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A5BC01E2537B95900BD0364 /* DevicesHomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesHomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		9A5BC01F2537B95900BD0364 /* DevicesHomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DevicesHomeCollectionViewCell.xib; sourceTree = "<group>"; };
+		9A8B33252537809200486C5E /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		9A8B33272537861100486C5E /* UIIVieControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIIVieControllerExtension.swift; sourceTree = "<group>"; };
 		9A8EE48F25364FDF009CF7B7 /* AddDeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDeviceViewController.swift; sourceTree = "<group>"; };
 		9A8EE496253651FE009CF7B7 /* CollectionViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewExtension.swift; sourceTree = "<group>"; };
 		9A8EE49825365223009CF7B7 /* TableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExtension.swift; sourceTree = "<group>"; };
-		9A8EE49A253653B5009CF7B7 /* DeviceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCollectionViewCell.swift; sourceTree = "<group>"; };
-		9A8EE49B253653B5009CF7B7 /* DeviceCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeviceCollectionViewCell.xib; sourceTree = "<group>"; };
 		9A8EE49F2536555F009CF7B7 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		9A8EE4A125365788009CF7B7 /* UIView+DesignView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+DesignView.swift"; sourceTree = "<group>"; };
 		9A8EE4A32536587B009CF7B7 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -65,7 +68,6 @@
 		9AD8086E25364137005B1554 /* SmartHomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartHomeTests.swift; sourceTree = "<group>"; };
 		9AD8087025364137005B1554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AEE1C5325365D5C00513E14 /* SelectedImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedImageViewController.swift; sourceTree = "<group>"; };
-		9AEE1C55253664E700513E14 /* ParticlePeripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticlePeripheral.swift; sourceTree = "<group>"; };
 		9AF7AA6F25374DDA000AA9CF /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		9AF7AA7225375155000AA9CF /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
 		A3AB4586974D7B620D8A5915 /* Pods-SmartHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartHome.release.xcconfig"; path = "Target Support Files/Pods-SmartHome/Pods-SmartHome.release.xcconfig"; sourceTree = "<group>"; };
@@ -164,8 +166,6 @@
 		9A8EE48E25364975009CF7B7 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				9A8EE49A253653B5009CF7B7 /* DeviceCollectionViewCell.swift */,
-				9A8EE49B253653B5009CF7B7 /* DeviceCollectionViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -176,6 +176,8 @@
 				9A8EE4A125365788009CF7B7 /* UIView+DesignView.swift */,
 				9A8EE496253651FE009CF7B7 /* CollectionViewExtension.swift */,
 				9A8EE49825365223009CF7B7 /* TableViewExtension.swift */,
+				9A8B33252537809200486C5E /* UIImageExtension.swift */,
+				9A8B33272537861100486C5E /* UIIVieControllerExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -184,7 +186,6 @@
 			isa = PBXGroup;
 			children = (
 				9A8EE49F2536555F009CF7B7 /* Device.swift */,
-				9AEE1C55253664E700513E14 /* ParticlePeripheral.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -238,6 +239,8 @@
 			isa = PBXGroup;
 			children = (
 				9AF7AA6F25374DDA000AA9CF /* ImageCollectionViewCell.swift */,
+				9A5BC01E2537B95900BD0364 /* DevicesHomeCollectionViewCell.swift */,
+				9A5BC01F2537B95900BD0364 /* DevicesHomeCollectionViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -335,10 +338,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A8EE49D253653B5009CF7B7 /* DeviceCollectionViewCell.xib in Resources */,
 				9AD8086425364137005B1554 /* LaunchScreen.storyboard in Resources */,
 				9AD8086125364137005B1554 /* Assets.xcassets in Resources */,
 				9AD8085F25364135005B1554 /* Main.storyboard in Resources */,
+				9A5BC0212537B95900BD0364 /* DevicesHomeCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,20 +442,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AF7AA7325375155000AA9CF /* ArrayExtension.swift in Sources */,
+				9A8B33282537861100486C5E /* UIIVieControllerExtension.swift in Sources */,
 				9ABCEF57253747A300D62659 /* BaseViewController.swift in Sources */,
 				9A8EE4A42536587B009CF7B7 /* SearchViewController.swift in Sources */,
 				9A8EE49025364FDF009CF7B7 /* AddDeviceViewController.swift in Sources */,
 				9AD8085C25364135005B1554 /* HomeViewController.swift in Sources */,
-				9AEE1C56253664E700513E14 /* ParticlePeripheral.swift in Sources */,
 				9A8EE49925365223009CF7B7 /* TableViewExtension.swift in Sources */,
 				9AEE1C5425365D5C00513E14 /* SelectedImageViewController.swift in Sources */,
 				9AD8085825364135005B1554 /* AppDelegate.swift in Sources */,
 				9A8EE4A225365788009CF7B7 /* UIView+DesignView.swift in Sources */,
 				9A8EE497253651FE009CF7B7 /* CollectionViewExtension.swift in Sources */,
 				9AF7AA7025374DDA000AA9CF /* ImageCollectionViewCell.swift in Sources */,
-				9A8EE49C253653B5009CF7B7 /* DeviceCollectionViewCell.swift in Sources */,
 				9AD8085A25364135005B1554 /* SceneDelegate.swift in Sources */,
 				9A8EE4A02536555F009CF7B7 /* Device.swift in Sources */,
+				9A8B33262537809200486C5E /* UIImageExtension.swift in Sources */,
+				9A5BC0202537B95900BD0364 /* DevicesHomeCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

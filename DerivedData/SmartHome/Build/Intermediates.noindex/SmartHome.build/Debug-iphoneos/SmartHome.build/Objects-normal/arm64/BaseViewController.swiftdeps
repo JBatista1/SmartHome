@@ -8,306 +8,283 @@ provides-member:
 provides-dynamic-lookup:
 - "hideLoading"
 - "showAddedLoading"
-- "showPassword"
+- "showMessageError"
 depends-top-level:
-- "AssignmentPrecedence"
 - "BaseViewController"
 - !private "BooleanLiteralType"
 - !private "MBProgressHUD"
+- "String"
 - !private "StringLiteralType"
-- "UIButton"
-- !private "UIControl"
-- !private "UIImage"
-- "UITextField"
+- !private "UIAlertAction"
+- !private "UIAlertController"
 - "UIView"
 - "UIViewController"
 depends-member:
 - !private ["9SmartHome18BaseViewControllerC", "MBProgressHUD"]
-- ["9SmartHome18BaseViewControllerC", "UIButton"]
-- !private ["9SmartHome18BaseViewControllerC", "UIControl"]
-- !private ["9SmartHome18BaseViewControllerC", "UIImage"]
-- ["9SmartHome18BaseViewControllerC", "UITextField"]
+- ["9SmartHome18BaseViewControllerC", "String"]
+- !private ["9SmartHome18BaseViewControllerC", "UIAlertAction"]
+- !private ["9SmartHome18BaseViewControllerC", "UIAlertController"]
 - ["9SmartHome18BaseViewControllerC", "UIView"]
 - ["9SmartHome18BaseViewControllerC", "deinit"]
 - ["9SmartHome18BaseViewControllerC", "hideLoading"]
 - ["9SmartHome18BaseViewControllerC", "init"]
+- !private ["9SmartHome18BaseViewControllerC", "present"]
 - ["9SmartHome18BaseViewControllerC", "showAddedLoading"]
-- ["9SmartHome18BaseViewControllerC", "showPassword"]
-- !private ["So15CALayerDelegateP", "State"]
+- ["9SmartHome18BaseViewControllerC", "showMessageError"]
 - !private ["So15CALayerDelegateP", "hide"]
-- !private ["So15CALayerDelegateP", "isSecureTextEntry"]
-- !private ["So15CALayerDelegateP", "setImage"]
 - !private ["So15CALayerDelegateP", "showAdded"]
 - !private ["s7CVarArgP", "MBProgressHUD"]
-- !private ["s7CVarArgP", "State"]
-- !private ["s7CVarArgP", "UIControl"]
-- !private ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "Style"]
+- !private ["s7CVarArgP", "UIAlertAction"]
+- !private ["s7CVarArgP", "UIAlertController"]
 - ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addAction"]
 - !private ["s7CVarArgP", "hide"]
 - !private ["s7CVarArgP", "init"]
-- !private ["s7CVarArgP", "isSecureTextEntry"]
-- !private ["s7CVarArgP", "setImage"]
+- !private ["s7CVarArgP", "present"]
 - !private ["s7CVarArgP", "showAdded"]
 - !private ["s28CustomDebugStringConvertibleP", "MBProgressHUD"]
-- !private ["s28CustomDebugStringConvertibleP", "State"]
-- !private ["s28CustomDebugStringConvertibleP", "UIControl"]
-- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "Style"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertAction"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertController"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addAction"]
 - !private ["s28CustomDebugStringConvertibleP", "hide"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
-- !private ["s28CustomDebugStringConvertibleP", "isSecureTextEntry"]
-- !private ["s28CustomDebugStringConvertibleP", "setImage"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
 - !private ["s28CustomDebugStringConvertibleP", "showAdded"]
 - !private ["s23CustomStringConvertibleP", "MBProgressHUD"]
-- !private ["s23CustomStringConvertibleP", "State"]
-- !private ["s23CustomStringConvertibleP", "UIControl"]
-- !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "Style"]
+- !private ["s23CustomStringConvertibleP", "UIAlertAction"]
+- !private ["s23CustomStringConvertibleP", "UIAlertController"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addAction"]
 - !private ["s23CustomStringConvertibleP", "hide"]
 - !private ["s23CustomStringConvertibleP", "init"]
-- !private ["s23CustomStringConvertibleP", "isSecureTextEntry"]
-- !private ["s23CustomStringConvertibleP", "setImage"]
+- !private ["s23CustomStringConvertibleP", "present"]
 - !private ["s23CustomStringConvertibleP", "showAdded"]
 - !private ["SQ", "MBProgressHUD"]
-- !private ["SQ", "State"]
-- !private ["SQ", "UIControl"]
-- !private ["SQ", "UIImage"]
+- !private ["SQ", "Style"]
+- !private ["SQ", "UIAlertAction"]
+- !private ["SQ", "UIAlertController"]
 - ["SQ", ""]
+- !private ["SQ", "addAction"]
+- !private ["SQ", "alert"]
+- !private ["SQ", "default"]
 - !private ["SQ", "hide"]
 - !private ["SQ", "init"]
-- !private ["SQ", "isSecureTextEntry"]
-- !private ["SQ", "normal"]
-- !private ["SQ", "setImage"]
+- !private ["SQ", "present"]
 - !private ["SQ", "showAdded"]
-- !private ["s25ExpressibleByArrayLiteralP", "normal"]
 - !private ["SH", "MBProgressHUD"]
-- !private ["SH", "State"]
-- !private ["SH", "UIControl"]
-- !private ["SH", "UIImage"]
+- !private ["SH", "Style"]
+- !private ["SH", "UIAlertAction"]
+- !private ["SH", "UIAlertController"]
 - ["SH", ""]
+- !private ["SH", "addAction"]
+- !private ["SH", "alert"]
+- !private ["SH", "default"]
 - !private ["SH", "hide"]
 - !private ["SH", "init"]
-- !private ["SH", "isSecureTextEntry"]
-- !private ["SH", "setImage"]
+- !private ["SH", "present"]
 - !private ["SH", "showAdded"]
 - !private ["So13MBProgressHUDC", "hide"]
 - !private ["So13MBProgressHUDC", "showAdded"]
 - !private ["So8NSCodingP", "MBProgressHUD"]
-- !private ["So8NSCodingP", "State"]
-- !private ["So8NSCodingP", "UIControl"]
-- !private ["So8NSCodingP", "UIImage"]
+- !private ["So8NSCodingP", "Style"]
+- !private ["So8NSCodingP", "UIAlertAction"]
+- !private ["So8NSCodingP", "UIAlertController"]
 - ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addAction"]
 - !private ["So8NSCodingP", "hide"]
 - !private ["So8NSCodingP", "init"]
-- !private ["So8NSCodingP", "isSecureTextEntry"]
-- !private ["So8NSCodingP", "setImage"]
+- !private ["So8NSCodingP", "present"]
 - !private ["So8NSCodingP", "showAdded"]
+- !private ["So9NSCopyingP", "Style"]
+- !private ["So9NSCopyingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "MBProgressHUD"]
-- !private ["So26NSExtensionRequestHandlingP", "UIControl"]
-- !private ["So26NSExtensionRequestHandlingP", "UIImage"]
+- !private ["So26NSExtensionRequestHandlingP", "Style"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertAction"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertController"]
 - ["So26NSExtensionRequestHandlingP", ""]
-- !private ["So21NSItemProviderReadingP", "init"]
-- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "addAction"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
 - !private ["So8NSObjectC", "MBProgressHUD"]
-- !private ["So8NSObjectC", "State"]
-- ["So8NSObjectC", "UIButton"]
-- !private ["So8NSObjectC", "UIControl"]
-- !private ["So8NSObjectC", "UIImage"]
-- ["So8NSObjectC", "UITextField"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "Style"]
+- !private ["So8NSObjectC", "UIAlertAction"]
+- !private ["So8NSObjectC", "UIAlertController"]
 - ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "addAction"]
 - !private ["So8NSObjectC", "hide"]
 - ["So8NSObjectC", "hideLoading"]
 - ["So8NSObjectC", "init"]
-- !private ["So8NSObjectC", "isSecureTextEntry"]
-- !private ["So8NSObjectC", "setImage"]
+- !private ["So8NSObjectC", "present"]
 - !private ["So8NSObjectC", "showAdded"]
 - ["So8NSObjectC", "showAddedLoading"]
-- ["So8NSObjectC", "showPassword"]
+- ["So8NSObjectC", "showMessageError"]
 - !private ["So8NSObjectP", "MBProgressHUD"]
-- !private ["So8NSObjectP", "State"]
-- !private ["So8NSObjectP", "UIControl"]
-- !private ["So8NSObjectP", "UIImage"]
+- !private ["So8NSObjectP", "Style"]
+- !private ["So8NSObjectP", "UIAlertAction"]
+- !private ["So8NSObjectP", "UIAlertController"]
 - ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addAction"]
 - !private ["So8NSObjectP", "hide"]
 - !private ["So8NSObjectP", "init"]
-- !private ["So8NSObjectP", "isSecureTextEntry"]
-- !private ["So8NSObjectP", "setImage"]
+- !private ["So8NSObjectP", "present"]
 - !private ["So8NSObjectP", "showAdded"]
-- !private ["So14NSSecureCodingP", "init"]
-- !private ["s9OptionSetP", "normal"]
-- !private ["SY", "normal"]
-- !private ["s10SetAlgebraP", "normal"]
-- !private ["So14UIControlStateV", "normal"]
-- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setImage"]
-- !private ["So29UIAccessibilityIdentificationP", "State"]
+- !private ["SY", "alert"]
+- !private ["SY", "default"]
+- !private ["So22UIAlertControllerStyleV", "alert"]
+- !private ["So18UIAlertActionStyleV", "default"]
 - !private ["So29UIAccessibilityIdentificationP", "hide"]
-- !private ["So29UIAccessibilityIdentificationP", "init"]
-- !private ["So29UIAccessibilityIdentificationP", "isSecureTextEntry"]
-- !private ["So29UIAccessibilityIdentificationP", "setImage"]
 - !private ["So29UIAccessibilityIdentificationP", "showAdded"]
-- !private ["So12UIAppearanceP", "State"]
+- !private ["So13UIAlertActionC", "Style"]
+- !private ["So13UIAlertActionC", "init"]
+- !private ["So17UIAlertControllerC", "Style"]
+- !private ["So17UIAlertControllerC", "addAction"]
+- !private ["So17UIAlertControllerC", "init"]
 - !private ["So12UIAppearanceP", "hide"]
-- !private ["So12UIAppearanceP", "isSecureTextEntry"]
-- !private ["So12UIAppearanceP", "setImage"]
 - !private ["So12UIAppearanceP", "showAdded"]
 - !private ["So21UIAppearanceContainerP", "MBProgressHUD"]
-- !private ["So21UIAppearanceContainerP", "State"]
-- !private ["So21UIAppearanceContainerP", "UIControl"]
-- !private ["So21UIAppearanceContainerP", "UIImage"]
+- !private ["So21UIAppearanceContainerP", "Style"]
+- !private ["So21UIAppearanceContainerP", "UIAlertAction"]
+- !private ["So21UIAppearanceContainerP", "UIAlertController"]
 - ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addAction"]
 - !private ["So21UIAppearanceContainerP", "hide"]
-- !private ["So21UIAppearanceContainerP", "isSecureTextEntry"]
-- !private ["So21UIAppearanceContainerP", "setImage"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "present"]
 - !private ["So21UIAppearanceContainerP", "showAdded"]
-- !private ["So8UIButtonC", "setImage"]
 - !private ["So18UIContentContainerP", "MBProgressHUD"]
-- !private ["So18UIContentContainerP", "UIControl"]
-- !private ["So18UIContentContainerP", "UIImage"]
+- !private ["So18UIContentContainerP", "Style"]
+- !private ["So18UIContentContainerP", "UIAlertAction"]
+- !private ["So18UIContentContainerP", "UIAlertController"]
 - ["So18UIContentContainerP", ""]
-- !private ["So30UIContentSizeCategoryAdjustingP", "isSecureTextEntry"]
-- !private ["So9UIControlC", "State"]
-- !private ["So9UIControlC", "isSecureTextEntry"]
-- !private ["So9UIControlC", "setImage"]
-- !private ["So17UICoordinateSpaceP", "State"]
+- !private ["So18UIContentContainerP", "addAction"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "present"]
 - !private ["So17UICoordinateSpaceP", "hide"]
-- !private ["So17UICoordinateSpaceP", "isSecureTextEntry"]
-- !private ["So17UICoordinateSpaceP", "setImage"]
 - !private ["So17UICoordinateSpaceP", "showAdded"]
-- !private ["So13UIDynamicItemP", "State"]
 - !private ["So13UIDynamicItemP", "hide"]
-- !private ["So13UIDynamicItemP", "isSecureTextEntry"]
-- !private ["So13UIDynamicItemP", "setImage"]
 - !private ["So13UIDynamicItemP", "showAdded"]
 - !private ["So18UIFocusEnvironmentP", "MBProgressHUD"]
-- !private ["So18UIFocusEnvironmentP", "State"]
-- !private ["So18UIFocusEnvironmentP", "UIControl"]
-- !private ["So18UIFocusEnvironmentP", "UIImage"]
+- !private ["So18UIFocusEnvironmentP", "Style"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertAction"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertController"]
 - ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addAction"]
 - !private ["So18UIFocusEnvironmentP", "hide"]
-- !private ["So18UIFocusEnvironmentP", "isSecureTextEntry"]
-- !private ["So18UIFocusEnvironmentP", "setImage"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "present"]
 - !private ["So18UIFocusEnvironmentP", "showAdded"]
-- !private ["So11UIFocusItemP", "State"]
 - !private ["So11UIFocusItemP", "hide"]
-- !private ["So11UIFocusItemP", "isSecureTextEntry"]
-- !private ["So11UIFocusItemP", "setImage"]
 - !private ["So11UIFocusItemP", "showAdded"]
-- !private ["So20UIFocusItemContainerP", "State"]
 - !private ["So20UIFocusItemContainerP", "hide"]
-- !private ["So20UIFocusItemContainerP", "isSecureTextEntry"]
-- !private ["So20UIFocusItemContainerP", "setImage"]
 - !private ["So20UIFocusItemContainerP", "showAdded"]
-- !private ["So7UIImageC", "init"]
-- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
-- !private ["So10UIKeyInputP", "isSecureTextEntry"]
-- !private ["So24UILargeContentViewerItemP", "State"]
 - !private ["So24UILargeContentViewerItemP", "hide"]
-- !private ["So24UILargeContentViewerItemP", "isSecureTextEntry"]
-- !private ["So24UILargeContentViewerItemP", "setImage"]
 - !private ["So24UILargeContentViewerItemP", "showAdded"]
 - !private ["So30UIPasteConfigurationSupportingP", "MBProgressHUD"]
-- !private ["So30UIPasteConfigurationSupportingP", "State"]
-- !private ["So30UIPasteConfigurationSupportingP", "UIControl"]
-- !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "Style"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertController"]
 - ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addAction"]
 - !private ["So30UIPasteConfigurationSupportingP", "hide"]
-- !private ["So30UIPasteConfigurationSupportingP", "isSecureTextEntry"]
-- !private ["So30UIPasteConfigurationSupportingP", "setImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
 - !private ["So30UIPasteConfigurationSupportingP", "showAdded"]
 - !private ["So11UIResponderC", "MBProgressHUD"]
-- !private ["So11UIResponderC", "State"]
-- ["So11UIResponderC", "UIButton"]
-- !private ["So11UIResponderC", "UIControl"]
-- !private ["So11UIResponderC", "UIImage"]
-- ["So11UIResponderC", "UITextField"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "Style"]
+- !private ["So11UIResponderC", "UIAlertAction"]
+- !private ["So11UIResponderC", "UIAlertController"]
 - ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "addAction"]
 - !private ["So11UIResponderC", "hide"]
 - ["So11UIResponderC", "hideLoading"]
 - ["So11UIResponderC", "init"]
-- !private ["So11UIResponderC", "isSecureTextEntry"]
-- !private ["So11UIResponderC", "setImage"]
+- !private ["So11UIResponderC", "present"]
 - !private ["So11UIResponderC", "showAdded"]
 - ["So11UIResponderC", "showAddedLoading"]
-- ["So11UIResponderC", "showPassword"]
+- ["So11UIResponderC", "showMessageError"]
 - !private ["So30UIResponderStandardEditActionsP", "MBProgressHUD"]
-- !private ["So30UIResponderStandardEditActionsP", "State"]
-- !private ["So30UIResponderStandardEditActionsP", "UIControl"]
-- !private ["So30UIResponderStandardEditActionsP", "UIImage"]
+- !private ["So30UIResponderStandardEditActionsP", "Style"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertAction"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertController"]
 - ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addAction"]
 - !private ["So30UIResponderStandardEditActionsP", "hide"]
-- !private ["So30UIResponderStandardEditActionsP", "isSecureTextEntry"]
-- !private ["So30UIResponderStandardEditActionsP", "setImage"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
 - !private ["So30UIResponderStandardEditActionsP", "showAdded"]
-- !private ["So35UISpringLoadedInteractionSupportingP", "setImage"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "Style"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addAction"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
 - !private ["So16UIStateRestoringP", "MBProgressHUD"]
-- !private ["So16UIStateRestoringP", "UIControl"]
-- !private ["So16UIStateRestoringP", "UIImage"]
+- !private ["So16UIStateRestoringP", "Style"]
+- !private ["So16UIStateRestoringP", "UIAlertAction"]
+- !private ["So16UIStateRestoringP", "UIAlertController"]
 - ["So16UIStateRestoringP", ""]
-- !private ["So15UITextDraggableP", "isSecureTextEntry"]
-- !private ["So15UITextDroppableP", "isSecureTextEntry"]
-- !private ["So11UITextFieldC", "isSecureTextEntry"]
-- !private ["So11UITextInputP", "isSecureTextEntry"]
-- !private ["So17UITextInputTraitsP", "isSecureTextEntry"]
-- !private ["So34UITextPasteConfigurationSupportingP", "isSecureTextEntry"]
+- !private ["So16UIStateRestoringP", "addAction"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "present"]
 - !private ["So18UITraitEnvironmentP", "MBProgressHUD"]
-- !private ["So18UITraitEnvironmentP", "State"]
-- !private ["So18UITraitEnvironmentP", "UIControl"]
-- !private ["So18UITraitEnvironmentP", "UIImage"]
+- !private ["So18UITraitEnvironmentP", "Style"]
+- !private ["So18UITraitEnvironmentP", "UIAlertAction"]
+- !private ["So18UITraitEnvironmentP", "UIAlertController"]
 - ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addAction"]
 - !private ["So18UITraitEnvironmentP", "hide"]
-- !private ["So18UITraitEnvironmentP", "isSecureTextEntry"]
-- !private ["So18UITraitEnvironmentP", "setImage"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "present"]
 - !private ["So18UITraitEnvironmentP", "showAdded"]
 - !private ["So23UIUserActivityRestoringP", "MBProgressHUD"]
-- !private ["So23UIUserActivityRestoringP", "State"]
-- !private ["So23UIUserActivityRestoringP", "UIControl"]
-- !private ["So23UIUserActivityRestoringP", "UIImage"]
+- !private ["So23UIUserActivityRestoringP", "Style"]
+- !private ["So23UIUserActivityRestoringP", "UIAlertAction"]
+- !private ["So23UIUserActivityRestoringP", "UIAlertController"]
 - ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addAction"]
 - !private ["So23UIUserActivityRestoringP", "hide"]
-- !private ["So23UIUserActivityRestoringP", "isSecureTextEntry"]
-- !private ["So23UIUserActivityRestoringP", "setImage"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "present"]
 - !private ["So23UIUserActivityRestoringP", "showAdded"]
-- !private ["So6UIViewC", "State"]
 - !private ["So6UIViewC", "hide"]
-- !private ["So6UIViewC", "isSecureTextEntry"]
-- !private ["So6UIViewC", "setImage"]
 - !private ["So6UIViewC", "showAdded"]
 - !private ["So16UIViewControllerC", "MBProgressHUD"]
-- ["So16UIViewControllerC", "UIButton"]
-- !private ["So16UIViewControllerC", "UIControl"]
-- !private ["So16UIViewControllerC", "UIImage"]
-- ["So16UIViewControllerC", "UITextField"]
+- ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "Style"]
+- !private ["So16UIViewControllerC", "UIAlertAction"]
+- !private ["So16UIViewControllerC", "UIAlertController"]
 - ["So16UIViewControllerC", "UIView"]
 - ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "addAction"]
 - ["So16UIViewControllerC", "hideLoading"]
 - ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "present"]
 - ["So16UIViewControllerC", "showAddedLoading"]
-- ["So16UIViewControllerC", "showPassword"]
-- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- ["So16UIViewControllerC", "showMessageError"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "MBProgressHUD"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "State"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIControl"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Style"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertController"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAction"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "hide"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "isSecureTextEntry"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "setImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "showAdded"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MBProgressHUD"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "State"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIControl"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Style"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIAlertAction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIAlertController"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addAction"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hide"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isSecureTextEntry"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "present"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "showAdded"]
-- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "State"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "hide"]
-- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isSecureTextEntry"]
-- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setImage"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "showAdded"]
 depends-nominal:
 - "9SmartHome18BaseViewControllerC"
@@ -316,53 +293,37 @@ depends-nominal:
 - "s28CustomDebugStringConvertibleP"
 - "s23CustomStringConvertibleP"
 - "SQ"
-- !private "s25ExpressibleByArrayLiteralP"
 - "SH"
 - !private "So13MBProgressHUDC"
 - "So8NSCodingP"
+- !private "So9NSCopyingP"
 - "So26NSExtensionRequestHandlingP"
-- !private "So21NSItemProviderReadingP"
-- !private "So21NSItemProviderWritingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
-- !private "So14NSSecureCodingP"
-- !private "s9OptionSetP"
 - !private "SY"
-- !private "s10SetAlgebraP"
-- !private "So14UIControlStateV"
-- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So22UIAlertControllerStyleV"
+- !private "So18UIAlertActionStyleV"
 - !private "So29UIAccessibilityIdentificationP"
+- !private "So13UIAlertActionC"
+- !private "So17UIAlertControllerC"
 - !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
-- !private "So8UIButtonC"
 - "So18UIContentContainerP"
-- !private "So30UIContentSizeCategoryAdjustingP"
-- !private "So9UIControlC"
 - !private "So17UICoordinateSpaceP"
 - !private "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
 - !private "So11UIFocusItemP"
 - !private "So20UIFocusItemContainerP"
-- !private "So7UIImageC"
-- !private "So39UIItemProviderPresentationSizeProvidingP"
-- !private "So10UIKeyInputP"
 - !private "So24UILargeContentViewerItemP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
 - !private "So35UISpringLoadedInteractionSupportingP"
 - "So16UIStateRestoringP"
-- !private "So15UITextDraggableP"
-- !private "So15UITextDroppableP"
-- !private "So11UITextFieldC"
-- !private "So11UITextInputP"
-- !private "So17UITextInputTraitsP"
-- !private "So34UITextPasteConfigurationSupportingP"
 - "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
 - !private "So6UIViewC"
 - "So16UIViewControllerC"
-- !private "s26_ExpressibleByImageLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
 - !private "s38__DefaultCustomPlaygroundQuickLookableP"
@@ -383,7 +344,22 @@ depends-external:
 - "/Applications/Xcode 11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD.h"
 - "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-umbrella.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardManager-umbrella.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQBarButtonItem.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQTitleBarButtonItem.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQToolbar.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIView+IQKeyboardToolbar.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardManager.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardReturnKeyHandler.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIViewController+Additions.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUITextFieldView+Additions.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIScrollView+Additions.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardManagerConstants.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQPreviousNextView.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQTextView.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIView+Hierarchy.h"
 - "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Modules/module.modulemap"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Modules/module.modulemap"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
@@ -398,4 +374,4 @@ depends-external:
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "af99aea888370c4920f9f1f25bb18a4e"
+interface-hash: "c5110e58dac6ac4e1dcd06a196d3c841"

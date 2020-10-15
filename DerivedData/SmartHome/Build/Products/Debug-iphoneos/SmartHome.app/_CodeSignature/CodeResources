@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		FxNhOfipmdCF8lMmi9vtpHfDH8o=
+		aKKua1050IKnJmpb1Qo8/L4vvz4=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		ki4T1fCmNLe/fCiUsSOvTLhOAyc=
+		9xGzt6BgqoOIcyXQ3JHvW3tXsi0=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -18,31 +18,59 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		vDf7RZAsNAecO1FXqtyAQoZCbQ4=
+		rF1W9DtWG6E2DDSvtCXVngqD5gU=
 		</data>
 		<key>Base.lproj/Main.storyboardc/A9z-G6-mBa-view-9aW-ei-N6D.nib</key>
 		<data>
-		wFZSbl1n3QByqtDDqpE7NPOqVfU=
+		RcORCTf8Uk1FXgNzyzmpKvwpGvg=
+		</data>
+		<key>Base.lproj/Main.storyboardc/AddDeviceViewController.nib</key>
+		<data>
+		ZAYJz2oOKINJo1uXTojzheKc+Bo=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		ybNGfsW2B5oETY4lUEFJJEbWNrs=
+		j+CbHt4A3EuCqnm086WvzlPMASM=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		rEZqthkDUl5dofM+GKnhLRKLq2E=
+		Z675bkyJYzqUa7YdhpDWq0zDqnw=
+		</data>
+		<key>Base.lproj/Main.storyboardc/QAF-GU-ivA-view-ynZ-1M-uHC.nib</key>
+		<data>
+		NM3jQQkaHQOt7BBQ1DsOgWtELZg=
 		</data>
 		<key>Base.lproj/Main.storyboardc/SecondViewController.nib</key>
 		<data>
-		blhmEIXMzklVsFySvyintqxFMXc=
+		+S5G/wulwoa+20V2dmGT0zYNxrY=
+		</data>
+		<key>Base.lproj/Main.storyboardc/SelectedImageViewController.nib</key>
+		<data>
+		b91Tt8qs8qV5Xwhkf0c6dFp9JQY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-KiJ-xD-DlY.nib</key>
 		<data>
-		RNxfa8sPzMR+lu8uxdBfkr6ZQrk=
+		Iyymw0HP4LT/tmHP8Xw4UXyBJNo=
 		</data>
-		<key>DeviceCollectionViewCell.nib</key>
+		<key>Base.lproj/Main.storyboardc/Y3w-pQ-8ez-view-Lii-gR-akm.nib</key>
 		<data>
-		Bl5X9Uq7Nh89KTot3fs6KhROsQU=
+		p089eFUinB1Mr2PV00pN5XvDx0Y=
+		</data>
+		<key>DevicesHomeCollectionViewCell.nib</key>
+		<data>
+		xfYJ+SYMa/Ib04t2REo6U5dJrkI=
+		</data>
+		<key>Frameworks/IQKeyboardManager.framework/IQKeyboardManager</key>
+		<data>
+		KuO2Kv93wwIghMQ2Pn+WM2ehJg0=
+		</data>
+		<key>Frameworks/IQKeyboardManager.framework/Info.plist</key>
+		<data>
+		eGDtVTBQiTDn3Z8F1iLU+wJNGLc=
+		</data>
+		<key>Frameworks/IQKeyboardManager.framework/_CodeSignature/CodeResources</key>
+		<data>
+		OEqfeu3RcGKeYLSkT18l/8rHrxs=
 		</data>
 		<key>Frameworks/MBProgressHUD.framework/Info.plist</key>
 		<data>
@@ -50,7 +78,7 @@
 		</data>
 		<key>Frameworks/MBProgressHUD.framework/MBProgressHUD</key>
 		<data>
-		iCG3VUUQkmZi8e+p3kHYIhgS1/0=
+		9KuiZ9g+pE767qomokX2Yquvm2g=
 		</data>
 		<key>Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -75,14 +103,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1eEBQFJfsJ5EIKYVgYt0RfDlSQRSFJqc3n4YVNqIxgY=
+			BH5JPosXaGpSfjIhM7LuIOFQtrNWY8gyX7xVg2xPTxU=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W8CPnwXVjMenXetzsv/NqM4kS9mYNzKsS1+kKTevC6w=
+			fZTBZI8t3uIlETNB6YE1UQrY6AOkGcydgNIMV9RgBWY=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -96,49 +124,98 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FpXQ38OIHSfEjNRgnbQHc59go5hjGg3ffRObrvbh1o4=
+			WdMEevpFp+VZVYlLlpYDQ1r9fblic+1qWJxWHelImoI=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/A9z-G6-mBa-view-9aW-ei-N6D.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bHwAy9kicYiO0MOF1vxUKlk0NNii5duaceNweWu6lqI=
+			q+48w5eZxbNj8HBXsPPmgm2nZRsnUFscQaXJCEbd2L4=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/AddDeviceViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			x2G0odwUw7igFWiNQa9IwIxrouBmNoVVZkKuxd1Hk0I=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xMVQAUAURT8M9FE8EYx4O8wiclD5MtnMAv+UgmCZsKw=
+			uZ2H9aTlfxbcL0dlvj1X8tqBt8P6fDuFkQR+xmCS8M4=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7ADbVYrVxoptT0V48+fI6XYnoof5mKCRvvsJ+QA/jpo=
+			54KGg2N/H1Vrwm52feGHM4m/Q0cQcDQ/R21aENJGBzU=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/QAF-GU-ivA-view-ynZ-1M-uHC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Xs0icVcNK1ab+cJ9cVVzTXBIUiBFoy/ilJSyKoW8/+4=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/SecondViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			74jOTxAc/JmJ7mIXeILnbvqIP/KBSYeTXKPhTJbUcaY=
+			MOhBBnN9heY2YvzfOrm/wt3FBvro62NMp30dhedVR60=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/SelectedImageViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GZy3US2Xsz4uan+89MIQ6rUBLOgkdoVxSwGacg3/u4U=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-KiJ-xD-DlY.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qS1gXnx6IeiahBcR+VjFh7zACIUTKJdD4kM9MufoW9w=
+			96sHTIfaB9NczVoPILI1lWNgoCUcFWJKeA0ywNhL098=
 			</data>
 		</dict>
-		<key>DeviceCollectionViewCell.nib</key>
+		<key>Base.lproj/Main.storyboardc/Y3w-pQ-8ez-view-Lii-gR-akm.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			flmjYjJl/Wt5OWdGD7nlB84r+I8SZGDfCe389qnthRA=
+			b7k7V3s9Hss4PlzEIWE67kf9QryMnT/ifZ1xz8J10fI=
+			</data>
+		</dict>
+		<key>DevicesHomeCollectionViewCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LweCqhw6A/Qn6RQArosdSLirrvBk2YzVmvMicFBbKdQ=
+			</data>
+		</dict>
+		<key>Frameworks/IQKeyboardManager.framework/IQKeyboardManager</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7R2/QL8jTzWtgAZT4+V6HFkUNFUipANB6noY6Oj+jG4=
+			</data>
+		</dict>
+		<key>Frameworks/IQKeyboardManager.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/fuuqR+gQsrK1OWGSTdyP2bPktznkyDRtScBHBsDPF8=
+			</data>
+		</dict>
+		<key>Frameworks/IQKeyboardManager.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ns74iCb47kli3eZWF1zITOZQKPznPg9wVDslv/Kz2G4=
 			</data>
 		</dict>
 		<key>Frameworks/MBProgressHUD.framework/Info.plist</key>
@@ -152,7 +229,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zu5O/YNXttpmFMfMs7vruGFDiImhMEX+2oAObghaNi0=
+			QD3pOFZuPVPjnHqHfyWHsySc+T106G9nvXfjjfPsBn4=
 			</data>
 		</dict>
 		<key>Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources</key>

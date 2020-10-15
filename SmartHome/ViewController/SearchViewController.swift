@@ -9,7 +9,7 @@
 import UIKit
 import CoreBluetooth
 protocol SearchDelegate: AnyObject {
-    func get(device: Device)
+    func get(device: Device, manager: CBCentralManager)
 }
 class SearchViewController: BaseViewController {
     weak var delegate: SearchDelegate?
@@ -35,7 +35,7 @@ class SearchViewController: BaseViewController {
     @IBAction func searchDevices(_ sender: Any) {
         centralManager.scanForPeripherals(withServices: nil)
         showAddedLoading(view: self.view)
-        let _ = Timer.scheduledTimer(timeInterval: 5.0, target: self, selector: #selector(stopScan), userInfo: nil, repeats: false)
+        let _ = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(stopScan), userInfo: nil, repeats: false)
     }
     @objc func stopScan() {
         hideLoading(view: self.view)
@@ -71,6 +71,16 @@ extension SearchViewController: UITableViewDataSource, UITableViewDelegate {
         return cell!
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-
+        if let addDeviceVC = UIViewController.createViewControllerIn(storyBoardName: "Main", withIndentifier: "AddDeviceViewController", typeViewController: AddDeviceViewController.self) {
+            addDeviceVC.delegate = self
+            addDeviceVC.peripheral = peripherals[indexPath.row]
+            self.navigationController?.pushViewController(addDeviceVC, animated: true)
+        }
+    }
+}
+extension SearchViewController: AddDeviceProtocol {
+    func finishRegister(device: Device) {
+        delegate?.get(device: device, manager: centralManager)
+        self.navigationController?.popViewController(animated: true)
     }
 }

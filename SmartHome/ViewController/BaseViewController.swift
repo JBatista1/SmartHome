@@ -9,7 +9,6 @@
 import UIKit
 import MBProgressHUD
 
-
 class BaseViewController: UIViewController {
 
     func showAddedLoading(view: UIView) {
@@ -19,14 +18,9 @@ class BaseViewController: UIViewController {
     func hideLoading(view: UIView) {
         MBProgressHUD.hide(for: view, animated: true)
     }
-
-    func showPassword(button: UIButton, input: UITextField){
-        if input.isSecureTextEntry {
-            input.isSecureTextEntry = false
-            button.setImage(UIImage(named: "icVisibilityOff"), for: UIControl.State.normal)
-        } else {
-            input.isSecureTextEntry = true
-            button.setImage(UIImage(named: "icVisibility"), for: UIControl.State.normal)
-        }
+    func showMessageError(title: String, message: String) {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "Click", style: UIAlertAction.Style.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
     }
 }
