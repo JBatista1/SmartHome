@@ -9,7 +9,7 @@
 import UIKit
 import CoreBluetooth
 protocol SearchDelegate: AnyObject {
-    func get(device: Device, manager: CBCentralManager)
+    func get(device: Device)
 }
 class SearchViewController: BaseViewController {
     weak var delegate: SearchDelegate?
@@ -41,7 +41,12 @@ class SearchViewController: BaseViewController {
         hideLoading(view: self.view)
         centralManager.stopScan()
         peripherals = peripherals.uniques
+        peripherals = removeNilObject(array: peripherals)
         devicesTable.reloadData()
+    }
+    func removeNilObject(array: [CBPeripheral]) -> [CBPeripheral] {
+        let devices = array.filter { $0.name != nil}
+        return devices
     }
 }
 extension SearchViewController: CBCentralManagerDelegate, CBPeripheralDelegate {
@@ -80,7 +85,7 @@ extension SearchViewController: UITableViewDataSource, UITableViewDelegate {
 }
 extension SearchViewController: AddDeviceProtocol {
     func finishRegister(device: Device) {
-        delegate?.get(device: device, manager: centralManager)
+        delegate?.get(device: device)
         self.navigationController?.popViewController(animated: true)
     }
 }

@@ -30,7 +30,7 @@ class DevicesHomeCollectionViewCell: UICollectionViewCell {
         status.text = "Desligado"
         status.textColor = .red
     }
-    func chnageStatus() {
+    func changeStatus() {
         if statusDevice {
             status.text = "Desligado"
             status.textColor = .red

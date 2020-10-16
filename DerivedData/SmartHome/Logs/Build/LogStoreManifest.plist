@@ -6,6 +6,40 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>000645FC-98D1-4DF7-85F8-6D98A4D4ED6D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>000645FC-98D1-4DF7-85F8-6D98A4D4ED6D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624496391.01553905</real>
+			<key>timeStoppedRecording</key>
+			<real>624496391.86848497</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>000645FC-98D1-4DF7-85F8-6D98A4D4ED6D</string>
+		</dict>
 		<key>01A2D6A2-E8D2-4073-82B1-2C2BFADDEC6F</key>
 		<dict>
 			<key>className</key>
@@ -108,6 +142,40 @@
 			<key>uniqueIdentifier</key>
 			<string>04100D1F-BE36-4464-B34E-491AEF6029C8</string>
 		</dict>
+		<key>0425751F-CB2B-42A3-B1AB-775F7E515F1F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0425751F-CB2B-42A3-B1AB-775F7E515F1F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624481423.30992496</real>
+			<key>timeStoppedRecording</key>
+			<real>624481427.84686005</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>0425751F-CB2B-42A3-B1AB-775F7E515F1F</string>
+		</dict>
 		<key>082FAFBD-6FB6-4571-BA2D-B8DE5152CCA8</key>
 		<dict>
 			<key>className</key>
@@ -141,6 +209,40 @@
 			<string>Build SmartHome</string>
 			<key>uniqueIdentifier</key>
 			<string>082FAFBD-6FB6-4571-BA2D-B8DE5152CCA8</string>
+		</dict>
+		<key>090CE14F-E1F0-41D1-BA14-AAA553A71A85</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>090CE14F-E1F0-41D1-BA14-AAA553A71A85.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624496595.82533395</real>
+			<key>timeStoppedRecording</key>
+			<real>624496600.08976996</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>090CE14F-E1F0-41D1-BA14-AAA553A71A85</string>
 		</dict>
 		<key>09899F89-E023-4E6C-A1BB-DE15FB971127</key>
 		<dict>
@@ -210,6 +312,74 @@
 			<key>uniqueIdentifier</key>
 			<string>0DF993FA-08FB-4A9D-8FFF-386F4189529A</string>
 		</dict>
+		<key>13A70642-4DE9-4860-910E-1EA7D036FE74</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>13A70642-4DE9-4860-910E-1EA7D036FE74.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624497409.57225394</real>
+			<key>timeStoppedRecording</key>
+			<real>624497414.288836</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>13A70642-4DE9-4860-910E-1EA7D036FE74</string>
+		</dict>
+		<key>17ADB48C-ED9D-41BA-8A9C-2C1DFD6E2058</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>17ADB48C-ED9D-41BA-8A9C-2C1DFD6E2058.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624496298.22694695</real>
+			<key>timeStoppedRecording</key>
+			<real>624496299.49449694</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>17ADB48C-ED9D-41BA-8A9C-2C1DFD6E2058</string>
+		</dict>
 		<key>17C0ABC1-87BD-4FC5-BAC0-EED924F7C6CB</key>
 		<dict>
 			<key>className</key>
@@ -278,6 +448,40 @@
 			<key>uniqueIdentifier</key>
 			<string>193924A5-EFF6-4EE7-A26E-2B33098C412D</string>
 		</dict>
+		<key>19BF4EF8-50A9-4C1F-AABC-515D3AB94630</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>19BF4EF8-50A9-4C1F-AABC-515D3AB94630.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624485734.93258798</real>
+			<key>timeStoppedRecording</key>
+			<real>624485739.12956703</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>19BF4EF8-50A9-4C1F-AABC-515D3AB94630</string>
+		</dict>
 		<key>1B333124-CC5C-4D61-B106-C05AFDDA52BB</key>
 		<dict>
 			<key>className</key>
@@ -311,6 +515,40 @@
 			<string>Build SmartHome</string>
 			<key>uniqueIdentifier</key>
 			<string>1B333124-CC5C-4D61-B106-C05AFDDA52BB</string>
+		</dict>
+		<key>22AB6617-DABD-43C4-9317-96BC1C2DC1D1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>22AB6617-DABD-43C4-9317-96BC1C2DC1D1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624505118.31507397</real>
+			<key>timeStoppedRecording</key>
+			<real>624505127.72758806</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>22AB6617-DABD-43C4-9317-96BC1C2DC1D1</string>
 		</dict>
 		<key>24B0381C-1788-4BE6-9D56-A9B6140FA48A</key>
 		<dict>
@@ -346,6 +584,40 @@
 			<key>uniqueIdentifier</key>
 			<string>24B0381C-1788-4BE6-9D56-A9B6140FA48A</string>
 		</dict>
+		<key>259A4201-D45A-4800-88DE-2AFB3124009A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>259A4201-D45A-4800-88DE-2AFB3124009A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624485389.49224699</real>
+			<key>timeStoppedRecording</key>
+			<real>624485390.55332899</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>259A4201-D45A-4800-88DE-2AFB3124009A</string>
+		</dict>
 		<key>2A043858-9DCD-4ABF-A7F1-3B04D0173D1A</key>
 		<dict>
 			<key>className</key>
@@ -379,6 +651,40 @@
 			<string>Build SmartHome</string>
 			<key>uniqueIdentifier</key>
 			<string>2A043858-9DCD-4ABF-A7F1-3B04D0173D1A</string>
+		</dict>
+		<key>2EED8146-94DF-462E-905B-95EF84D53C04</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2EED8146-94DF-462E-905B-95EF84D53C04.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624498251.31541002</real>
+			<key>timeStoppedRecording</key>
+			<real>624498251.98263502</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>2EED8146-94DF-462E-905B-95EF84D53C04</string>
 		</dict>
 		<key>300AF8C8-4AA2-43BF-A438-ABA5E7A0BAE3</key>
 		<dict>
@@ -448,6 +754,142 @@
 			<key>uniqueIdentifier</key>
 			<string>307463C0-4B70-41D5-A0E4-5714820B85EF</string>
 		</dict>
+		<key>31FBD994-DDE2-4EEF-A839-FCBD89CDCDCF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>31FBD994-DDE2-4EEF-A839-FCBD89CDCDCF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624496584.60968304</real>
+			<key>timeStoppedRecording</key>
+			<real>624496585.26266098</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>31FBD994-DDE2-4EEF-A839-FCBD89CDCDCF</string>
+		</dict>
+		<key>374EFF1E-C639-46C0-9FF3-7F86E78172EC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>374EFF1E-C639-46C0-9FF3-7F86E78172EC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624496781.90850997</real>
+			<key>timeStoppedRecording</key>
+			<real>624496786.20880103</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>374EFF1E-C639-46C0-9FF3-7F86E78172EC</string>
+		</dict>
+		<key>38C4A08E-A729-465A-B9A1-D46D1F0BFDD7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>38C4A08E-A729-465A-B9A1-D46D1F0BFDD7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624485682.57349801</real>
+			<key>timeStoppedRecording</key>
+			<real>624485686.65281296</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>38C4A08E-A729-465A-B9A1-D46D1F0BFDD7</string>
+		</dict>
+		<key>3A282C5F-1CDE-4870-A836-31902BB08A88</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3A282C5F-1CDE-4870-A836-31902BB08A88.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624496767.59182203</real>
+			<key>timeStoppedRecording</key>
+			<real>624496768.49699497</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>3A282C5F-1CDE-4870-A836-31902BB08A88</string>
+		</dict>
 		<key>3DB99907-6158-438B-87BB-4BF1FA73E28E</key>
 		<dict>
 			<key>className</key>
@@ -516,6 +958,40 @@
 			<key>uniqueIdentifier</key>
 			<string>407B8A0C-B652-4772-A109-E0A47583B5CB</string>
 		</dict>
+		<key>433C486F-5BB6-4C55-8A05-3B37F80DC5D8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>433C486F-5BB6-4C55-8A05-3B37F80DC5D8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624497437.79985702</real>
+			<key>timeStoppedRecording</key>
+			<real>624497442.33239496</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>433C486F-5BB6-4C55-8A05-3B37F80DC5D8</string>
+		</dict>
 		<key>43BEFA84-9335-4A9E-A465-55E101C493D8</key>
 		<dict>
 			<key>className</key>
@@ -549,6 +1025,108 @@
 			<string>Build SmartHome</string>
 			<key>uniqueIdentifier</key>
 			<string>43BEFA84-9335-4A9E-A465-55E101C493D8</string>
+		</dict>
+		<key>44F1C8DA-8A7D-46C7-9DB0-B071FF896316</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>44F1C8DA-8A7D-46C7-9DB0-B071FF896316.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624497522.80541503</real>
+			<key>timeStoppedRecording</key>
+			<real>624497527.33136106</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>44F1C8DA-8A7D-46C7-9DB0-B071FF896316</string>
+		</dict>
+		<key>47079CC9-E73D-4C6B-B78F-ADC2AB9DE878</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>47079CC9-E73D-4C6B-B78F-ADC2AB9DE878.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624497231.74137199</real>
+			<key>timeStoppedRecording</key>
+			<real>624497236.81838</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>47079CC9-E73D-4C6B-B78F-ADC2AB9DE878</string>
+		</dict>
+		<key>4B25BEC4-6756-4AE5-8A27-9E4E8ACF5A7B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4B25BEC4-6756-4AE5-8A27-9E4E8ACF5A7B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624496548.50343394</real>
+			<key>timeStoppedRecording</key>
+			<real>624496552.85745001</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>4B25BEC4-6756-4AE5-8A27-9E4E8ACF5A7B</string>
 		</dict>
 		<key>4D74C827-B70C-46D7-BD98-E4C1A084CED6</key>
 		<dict>
@@ -584,6 +1162,176 @@
 			<key>uniqueIdentifier</key>
 			<string>4D74C827-B70C-46D7-BD98-E4C1A084CED6</string>
 		</dict>
+		<key>4D91EF6E-504D-4D14-9390-D2DE4810EE2A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4D91EF6E-504D-4D14-9390-D2DE4810EE2A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624496395.78298199</real>
+			<key>timeStoppedRecording</key>
+			<real>624496396.51071203</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>4D91EF6E-504D-4D14-9390-D2DE4810EE2A</string>
+		</dict>
+		<key>54C88639-A10F-4232-9F6F-D81AC5B21E45</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>54C88639-A10F-4232-9F6F-D81AC5B21E45.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624485096.41493702</real>
+			<key>timeStoppedRecording</key>
+			<real>624485100.93558896</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>54C88639-A10F-4232-9F6F-D81AC5B21E45</string>
+		</dict>
+		<key>59A3AE93-93C6-4762-81F8-E8DDE254FD11</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>59A3AE93-93C6-4762-81F8-E8DDE254FD11.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624496725.91880298</real>
+			<key>timeStoppedRecording</key>
+			<real>624496726.70544302</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>59A3AE93-93C6-4762-81F8-E8DDE254FD11</string>
+		</dict>
+		<key>5DC7BEB9-F8BD-4990-B630-7ECD904A9A54</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5DC7BEB9-F8BD-4990-B630-7ECD904A9A54.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624480038.92056704</real>
+			<key>timeStoppedRecording</key>
+			<real>624480039.47134602</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>5DC7BEB9-F8BD-4990-B630-7ECD904A9A54</string>
+		</dict>
+		<key>5FBE990E-4267-4943-A57B-242859C9259D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5FBE990E-4267-4943-A57B-242859C9259D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624496449.53776097</real>
+			<key>timeStoppedRecording</key>
+			<real>624496459.48094404</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>5FBE990E-4267-4943-A57B-242859C9259D</string>
+		</dict>
 		<key>625D6940-8A1E-4CF0-9D4D-A6C1D72EF24E</key>
 		<dict>
 			<key>className</key>
@@ -617,6 +1365,74 @@
 			<string>Build SmartHome</string>
 			<key>uniqueIdentifier</key>
 			<string>625D6940-8A1E-4CF0-9D4D-A6C1D72EF24E</string>
+		</dict>
+		<key>63C9E596-2101-4BDF-B5EE-DFEA06E14F07</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>63C9E596-2101-4BDF-B5EE-DFEA06E14F07.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624485464.63482594</real>
+			<key>timeStoppedRecording</key>
+			<real>624485465.46794796</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>63C9E596-2101-4BDF-B5EE-DFEA06E14F07</string>
+		</dict>
+		<key>6E37BDFC-E25A-4D80-86E4-9A5C5CF9AD5C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6E37BDFC-E25A-4D80-86E4-9A5C5CF9AD5C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624497044.02861798</real>
+			<key>timeStoppedRecording</key>
+			<real>624497048.55259204</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>6E37BDFC-E25A-4D80-86E4-9A5C5CF9AD5C</string>
 		</dict>
 		<key>784AEF3C-0E99-4E50-9B57-3B4729E0E411</key>
 		<dict>
@@ -720,6 +1536,74 @@
 			<key>uniqueIdentifier</key>
 			<string>796B1BD6-FC3D-4767-9D66-676D86E7875D</string>
 		</dict>
+		<key>8ED9F3D0-4C47-4F53-ACCD-5346664845E4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8ED9F3D0-4C47-4F53-ACCD-5346664845E4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624497446.88426805</real>
+			<key>timeStoppedRecording</key>
+			<real>624497447.45681596</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>8ED9F3D0-4C47-4F53-ACCD-5346664845E4</string>
+		</dict>
+		<key>90BEFC60-C395-4280-B3D7-20921A745494</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>90BEFC60-C395-4280-B3D7-20921A745494.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624496747.29621899</real>
+			<key>timeStoppedRecording</key>
+			<real>624496748.002473</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>90BEFC60-C395-4280-B3D7-20921A745494</string>
+		</dict>
 		<key>92B46BAE-0FEE-4272-83F2-70970B520A95</key>
 		<dict>
 			<key>className</key>
@@ -753,6 +1637,74 @@
 			<string>Build SmartHome</string>
 			<key>uniqueIdentifier</key>
 			<string>92B46BAE-0FEE-4272-83F2-70970B520A95</string>
+		</dict>
+		<key>92BA6DAE-35A2-44F0-AFB5-0062CBAD1075</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>92BA6DAE-35A2-44F0-AFB5-0062CBAD1075.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624496233.962394</real>
+			<key>timeStoppedRecording</key>
+			<real>624496236.12791705</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>92BA6DAE-35A2-44F0-AFB5-0062CBAD1075</string>
+		</dict>
+		<key>9510FAEC-A833-4DB7-B734-D326D75BBA9E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9510FAEC-A833-4DB7-B734-D326D75BBA9E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624485664.83614099</real>
+			<key>timeStoppedRecording</key>
+			<real>624485666.32125103</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>9510FAEC-A833-4DB7-B734-D326D75BBA9E</string>
 		</dict>
 		<key>95CF5EB8-4A46-42C5-968D-96364C99AB7D</key>
 		<dict>
@@ -788,6 +1740,40 @@
 			<key>uniqueIdentifier</key>
 			<string>95CF5EB8-4A46-42C5-968D-96364C99AB7D</string>
 		</dict>
+		<key>967CB95E-AF15-42E8-ACCC-38F57C50276B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>967CB95E-AF15-42E8-ACCC-38F57C50276B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624496853.21552396</real>
+			<key>timeStoppedRecording</key>
+			<real>624496858.45373094</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>967CB95E-AF15-42E8-ACCC-38F57C50276B</string>
+		</dict>
 		<key>984F6AC9-F57D-4652-938C-94A023AD5935</key>
 		<dict>
 			<key>className</key>
@@ -822,6 +1808,176 @@
 			<key>uniqueIdentifier</key>
 			<string>984F6AC9-F57D-4652-938C-94A023AD5935</string>
 		</dict>
+		<key>99D7B4C0-4B35-472F-B20E-C56D4E1121BA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>99D7B4C0-4B35-472F-B20E-C56D4E1121BA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624496777.48883605</real>
+			<key>timeStoppedRecording</key>
+			<real>624496778.37739897</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>99D7B4C0-4B35-472F-B20E-C56D4E1121BA</string>
+		</dict>
+		<key>9BC3F7FE-B811-4361-9FB8-F3577378E255</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9BC3F7FE-B811-4361-9FB8-F3577378E255.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624479311.41146195</real>
+			<key>timeStoppedRecording</key>
+			<real>624479312.41863501</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>9BC3F7FE-B811-4361-9FB8-F3577378E255</string>
+		</dict>
+		<key>9C239D56-BA3F-4532-8499-0E21D17D95DC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9C239D56-BA3F-4532-8499-0E21D17D95DC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624497169.78528702</real>
+			<key>timeStoppedRecording</key>
+			<real>624497175.36637294</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>9C239D56-BA3F-4532-8499-0E21D17D95DC</string>
+		</dict>
+		<key>9E87EC8C-FA6E-4C76-A3E3-860225D22FC2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9E87EC8C-FA6E-4C76-A3E3-860225D22FC2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624498187.12376106</real>
+			<key>timeStoppedRecording</key>
+			<real>624498191.81810796</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>9E87EC8C-FA6E-4C76-A3E3-860225D22FC2</string>
+		</dict>
+		<key>A0D8F2A2-D661-4DB1-AA42-B3D0CE64DAEC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A0D8F2A2-D661-4DB1-AA42-B3D0CE64DAEC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624497130.388713</real>
+			<key>timeStoppedRecording</key>
+			<real>624497131.70073295</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>A0D8F2A2-D661-4DB1-AA42-B3D0CE64DAEC</string>
+		</dict>
 		<key>A0FDDBB1-4148-4594-B3F2-760DCC55D4AF</key>
 		<dict>
 			<key>className</key>
@@ -855,6 +2011,40 @@
 			<string>Build SmartHome</string>
 			<key>uniqueIdentifier</key>
 			<string>A0FDDBB1-4148-4594-B3F2-760DCC55D4AF</string>
+		</dict>
+		<key>A1E35270-BA50-42D7-B90E-2F32A04419D7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A1E35270-BA50-42D7-B90E-2F32A04419D7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624497576.659796</real>
+			<key>timeStoppedRecording</key>
+			<real>624497581.10537195</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>A1E35270-BA50-42D7-B90E-2F32A04419D7</string>
 		</dict>
 		<key>A44644DB-12D8-4D30-91FB-E3D7E3EB6D98</key>
 		<dict>
@@ -958,6 +2148,40 @@
 			<key>uniqueIdentifier</key>
 			<string>A86B4AFA-7D6E-43A5-8486-535C6AF0C1F1</string>
 		</dict>
+		<key>A9DA2141-BC8D-4B0C-857E-9FD7CEF8BFF5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A9DA2141-BC8D-4B0C-857E-9FD7CEF8BFF5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624496861.67897201</real>
+			<key>timeStoppedRecording</key>
+			<real>624496865.656811</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>A9DA2141-BC8D-4B0C-857E-9FD7CEF8BFF5</string>
+		</dict>
 		<key>B1299761-ECE9-40B6-9EFD-0956F2EFEADA</key>
 		<dict>
 			<key>className</key>
@@ -991,6 +2215,40 @@
 			<string>Build SmartHome</string>
 			<key>uniqueIdentifier</key>
 			<string>B1299761-ECE9-40B6-9EFD-0956F2EFEADA</string>
+		</dict>
+		<key>B276A153-B1AF-4558-BE59-73B012CB2095</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B276A153-B1AF-4558-BE59-73B012CB2095.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624496408.47684598</real>
+			<key>timeStoppedRecording</key>
+			<real>624496409.15276098</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>B276A153-B1AF-4558-BE59-73B012CB2095</string>
 		</dict>
 		<key>BBF1824B-305A-49BB-A946-B7BCFDF0D3FE</key>
 		<dict>
@@ -1026,6 +2284,176 @@
 			<key>uniqueIdentifier</key>
 			<string>BBF1824B-305A-49BB-A946-B7BCFDF0D3FE</string>
 		</dict>
+		<key>BC2462F3-F60B-4C87-B842-AFBFEFAAA129</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BC2462F3-F60B-4C87-B842-AFBFEFAAA129.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624496319.96033299</real>
+			<key>timeStoppedRecording</key>
+			<real>624496320.73106503</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>BC2462F3-F60B-4C87-B842-AFBFEFAAA129</string>
+		</dict>
+		<key>BF223931-D2EC-49E2-9F8E-8D979DD9964D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BF223931-D2EC-49E2-9F8E-8D979DD9964D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624485470.28508496</real>
+			<key>timeStoppedRecording</key>
+			<real>624485471.18914199</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>BF223931-D2EC-49E2-9F8E-8D979DD9964D</string>
+		</dict>
+		<key>C263FDAA-891E-4765-905E-1368A82EB4EA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C263FDAA-891E-4765-905E-1368A82EB4EA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624497474.30385494</real>
+			<key>timeStoppedRecording</key>
+			<real>624497479.16586804</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>C263FDAA-891E-4765-905E-1368A82EB4EA</string>
+		</dict>
+		<key>C3EDE693-B6D1-4AC6-A49B-A55E951F078D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C3EDE693-B6D1-4AC6-A49B-A55E951F078D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624485936.37876904</real>
+			<key>timeStoppedRecording</key>
+			<real>624485940.22902203</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>C3EDE693-B6D1-4AC6-A49B-A55E951F078D</string>
+		</dict>
+		<key>C42FBC25-BA9B-4E5A-9E35-B97E9EB33C19</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C42FBC25-BA9B-4E5A-9E35-B97E9EB33C19.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624479605.74368596</real>
+			<key>timeStoppedRecording</key>
+			<real>624479606.32550299</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>C42FBC25-BA9B-4E5A-9E35-B97E9EB33C19</string>
+		</dict>
 		<key>C49EB836-AE14-4A05-9912-1BF1DA6EA29C</key>
 		<dict>
 			<key>className</key>
@@ -1059,6 +2487,40 @@
 			<string>Build SmartHome</string>
 			<key>uniqueIdentifier</key>
 			<string>C49EB836-AE14-4A05-9912-1BF1DA6EA29C</string>
+		</dict>
+		<key>C97C883B-E8EC-4BE0-B027-55D25001F548</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C97C883B-E8EC-4BE0-B027-55D25001F548.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624496927.80882096</real>
+			<key>timeStoppedRecording</key>
+			<real>624496928.54648399</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>C97C883B-E8EC-4BE0-B027-55D25001F548</string>
 		</dict>
 		<key>C99A96E2-9F25-40FA-AD39-73B0F87882AD</key>
 		<dict>
@@ -1127,6 +2589,74 @@
 			<string>Build SmartHome</string>
 			<key>uniqueIdentifier</key>
 			<string>CE86E613-03BE-4525-8A6F-3EBF40461FC6</string>
+		</dict>
+		<key>CF5391BF-95D3-4972-9588-D2CA13A2492F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CF5391BF-95D3-4972-9588-D2CA13A2492F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624485306.44646704</real>
+			<key>timeStoppedRecording</key>
+			<real>624485307.53833795</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>CF5391BF-95D3-4972-9588-D2CA13A2492F</string>
+		</dict>
+		<key>D753AA03-677D-40B1-8112-771B9E546B6C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D753AA03-677D-40B1-8112-771B9E546B6C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624484978.68664205</real>
+			<key>timeStoppedRecording</key>
+			<real>624484982.87556303</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>D753AA03-677D-40B1-8112-771B9E546B6C</string>
 		</dict>
 		<key>D7CF8637-60E4-425F-B9FC-AC694B826E98</key>
 		<dict>
@@ -1230,6 +2760,40 @@
 			<key>uniqueIdentifier</key>
 			<string>DADBF7A5-6F98-4A19-98F0-498F669A2668</string>
 		</dict>
+		<key>DD2C0667-5C52-49EA-8E6E-7F3C1D4B0C74</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DD2C0667-5C52-49EA-8E6E-7F3C1D4B0C74.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624496635.72308004</real>
+			<key>timeStoppedRecording</key>
+			<real>624496639.56890404</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>DD2C0667-5C52-49EA-8E6E-7F3C1D4B0C74</string>
+		</dict>
 		<key>E7039BE4-6721-4067-B559-6DD1BDC905F6</key>
 		<dict>
 			<key>className</key>
@@ -1263,6 +2827,40 @@
 			<string>Build SmartHome</string>
 			<key>uniqueIdentifier</key>
 			<string>E7039BE4-6721-4067-B559-6DD1BDC905F6</string>
+		</dict>
+		<key>E74A09C0-93ED-4321-B118-63EFD69E4309</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E74A09C0-93ED-4321-B118-63EFD69E4309.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624485689.75756896</real>
+			<key>timeStoppedRecording</key>
+			<real>624485693.35900998</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>E74A09C0-93ED-4321-B118-63EFD69E4309</string>
 		</dict>
 		<key>E9C92DF8-B029-4290-AEA9-76E255514293</key>
 		<dict>
@@ -1298,6 +2896,40 @@
 			<key>uniqueIdentifier</key>
 			<string>E9C92DF8-B029-4290-AEA9-76E255514293</string>
 		</dict>
+		<key>EA5BD8F3-6C4F-44A5-B9B6-FF314022DC95</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EA5BD8F3-6C4F-44A5-B9B6-FF314022DC95.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624497380.25289094</real>
+			<key>timeStoppedRecording</key>
+			<real>624497381.17997897</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>EA5BD8F3-6C4F-44A5-B9B6-FF314022DC95</string>
+		</dict>
 		<key>EE82EA57-81A0-4B30-87AD-B18DFCCE9D79</key>
 		<dict>
 			<key>className</key>
@@ -1332,6 +2964,74 @@
 			<key>uniqueIdentifier</key>
 			<string>EE82EA57-81A0-4B30-87AD-B18DFCCE9D79</string>
 		</dict>
+		<key>F2BEE002-4C9E-4352-885C-D8F3555BA85E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F2BEE002-4C9E-4352-885C-D8F3555BA85E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624497573.52338696</real>
+			<key>timeStoppedRecording</key>
+			<real>624497574.43853796</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>F2BEE002-4C9E-4352-885C-D8F3555BA85E</string>
+		</dict>
+		<key>F42D843E-AA29-463D-8424-D44D26C5949D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F42D843E-AA29-463D-8424-D44D26C5949D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624497400.57062995</real>
+			<key>timeStoppedRecording</key>
+			<real>624497401.41626704</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>F42D843E-AA29-463D-8424-D44D26C5949D</string>
+		</dict>
 		<key>FD0AEE17-A19D-4A99-9AE1-1792E160570E</key>
 		<dict>
 			<key>className</key>
@@ -1365,6 +3065,40 @@
 			<string>Build SmartHome</string>
 			<key>uniqueIdentifier</key>
 			<string>FD0AEE17-A19D-4A99-9AE1-1792E160570E</string>
+		</dict>
+		<key>FE28CA77-015F-4B83-A479-5DD7D4E5D6C6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FE28CA77-015F-4B83-A479-5DD7D4E5D6C6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartHome project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartHome</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SmartHome</string>
+			<key>timeStartedRecording</key>
+			<real>624496570.98605204</real>
+			<key>timeStoppedRecording</key>
+			<real>624496571.66320896</real>
+			<key>title</key>
+			<string>Build SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>FE28CA77-015F-4B83-A479-5DD7D4E5D6C6</string>
 		</dict>
 	</dict>
 </dict>

@@ -14,7 +14,7 @@ protocol AddDeviceProtocol: AnyObject {
 class AddDeviceViewController: BaseViewController {
 
     weak var delegate: AddDeviceProtocol?
-    let ports = [13, 14, 15, 17, 22, 15]
+    let ports = [2, 14, 27, 26]
     var pickerView = UIPickerView()
     var peripheral: CBPeripheral!
     var port: Int = 0

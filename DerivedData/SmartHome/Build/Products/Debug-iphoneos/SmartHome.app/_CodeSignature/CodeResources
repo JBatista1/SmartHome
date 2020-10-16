@@ -4,9 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		uFpilrGb7pKl6JxMstmk7dEg28Q=
+		</data>
+		<key>AppIcon76x76@2x~ipad.png</key>
+		<data>
+		pYoLByE0iGCn0mo4d2OZfOeQWsE=
+		</data>
 		<key>Assets.car</key>
 		<data>
-		aKKua1050IKnJmpb1Qo8/L4vvz4=
+		WHzxAJKaurjEByAtr7hluOsdbMs=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -22,39 +30,39 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/A9z-G6-mBa-view-9aW-ei-N6D.nib</key>
 		<data>
-		RcORCTf8Uk1FXgNzyzmpKvwpGvg=
+		v9X1JQS6JvXo9S/jH+EyOcaAQM8=
 		</data>
 		<key>Base.lproj/Main.storyboardc/AddDeviceViewController.nib</key>
 		<data>
-		ZAYJz2oOKINJo1uXTojzheKc+Bo=
+		sZYJd/SrgtnGpe0v7QYSgSk49vE=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		j+CbHt4A3EuCqnm086WvzlPMASM=
+		wv7Q+H6aa1KWMosGsvX9yPVy7vk=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		Z675bkyJYzqUa7YdhpDWq0zDqnw=
+		lP5L+68e8BN4MZGPMeHH0YG2u3U=
 		</data>
 		<key>Base.lproj/Main.storyboardc/QAF-GU-ivA-view-ynZ-1M-uHC.nib</key>
 		<data>
-		NM3jQQkaHQOt7BBQ1DsOgWtELZg=
+		d8F2Lu6TnKFN85Xr5+XM8SfSRaY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/SecondViewController.nib</key>
 		<data>
-		+S5G/wulwoa+20V2dmGT0zYNxrY=
+		L1C8+FTSKkvjzPHxmcnG99lJZk0=
 		</data>
 		<key>Base.lproj/Main.storyboardc/SelectedImageViewController.nib</key>
 		<data>
-		b91Tt8qs8qV5Xwhkf0c6dFp9JQY=
+		C71VpTtL45TD5+u50xOZOjzl3x0=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-KiJ-xD-DlY.nib</key>
 		<data>
-		Iyymw0HP4LT/tmHP8Xw4UXyBJNo=
+		NEcvvah3wSFhLnctQ0eRJ5zE2Ag=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Y3w-pQ-8ez-view-Lii-gR-akm.nib</key>
 		<data>
-		p089eFUinB1Mr2PV00pN5XvDx0Y=
+		vc9NqTxxmCUK12VrJ17k8pEkYRE=
 		</data>
 		<key>DevicesHomeCollectionViewCell.nib</key>
 		<data>
@@ -86,7 +94,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ViKKJ7VadgJ1qRdfHEjScrzrtLg=
+		q7bVV9rguEw3aLi45ybSmNGN6q8=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -99,11 +107,25 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0wmmRLNwFfi8NM7bz57JOs4LIJMWzkp2/3mNL0905iw=
+			</data>
+		</dict>
+		<key>AppIcon76x76@2x~ipad.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1ltPc+VfowtYEiQHNf7qIYvQENGR+vKcKEN+x8h13l8=
+			</data>
+		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BH5JPosXaGpSfjIhM7LuIOFQtrNWY8gyX7xVg2xPTxU=
+			05fIaJxWmT0ti0jTRf/s3zv4nbunHzrroQER798YjT8=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -131,63 +153,63 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q+48w5eZxbNj8HBXsPPmgm2nZRsnUFscQaXJCEbd2L4=
+			YngoTBj6/zEGGhb7ssAF2MD3s/ZSHAvfSlMjlJtMgck=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/AddDeviceViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x2G0odwUw7igFWiNQa9IwIxrouBmNoVVZkKuxd1Hk0I=
+			8Xe3smzHtGtj0HhxOPM2Gjt5u7uXqfX+ra7X2pv1w5E=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uZ2H9aTlfxbcL0dlvj1X8tqBt8P6fDuFkQR+xmCS8M4=
+			590+TJrQZ/DLaAcew0ImUTAW4CLLQN6XrMYbuPCqPhQ=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			54KGg2N/H1Vrwm52feGHM4m/Q0cQcDQ/R21aENJGBzU=
+			An0c4+TJZWC0ZU2Lq3mBL7rn+XxDfwK+EpYGcRmxFO8=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/QAF-GU-ivA-view-ynZ-1M-uHC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xs0icVcNK1ab+cJ9cVVzTXBIUiBFoy/ilJSyKoW8/+4=
+			wtA0R4X3cnouPDhH3zIaBRnKNbXaHAApjJuX3FBhl7o=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/SecondViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MOhBBnN9heY2YvzfOrm/wt3FBvro62NMp30dhedVR60=
+			hF3PD7pgT4khHC5FCYBaQJYTDQ8JavhFmYvV/4XuzG8=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/SelectedImageViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GZy3US2Xsz4uan+89MIQ6rUBLOgkdoVxSwGacg3/u4U=
+			sO9ztN9AxNXxKDESyS8EfltAzKT9Dlq1V9J6QTYLveU=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-KiJ-xD-DlY.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			96sHTIfaB9NczVoPILI1lWNgoCUcFWJKeA0ywNhL098=
+			wC+7GHWYhd9TeU+UctIyEC1asdtg+xLBBQNJmtED6OU=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Y3w-pQ-8ez-view-Lii-gR-akm.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b7k7V3s9Hss4PlzEIWE67kf9QryMnT/ifZ1xz8J10fI=
+			+GzZS2tZDTEu/vUru1mu7w50cXcuQt0SmuQvBZZSt0g=
 			</data>
 		</dict>
 		<key>DevicesHomeCollectionViewCell.nib</key>

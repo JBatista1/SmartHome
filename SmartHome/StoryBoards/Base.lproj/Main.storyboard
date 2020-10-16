@@ -55,7 +55,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="SmartHome" largeTitleDisplayMode="always" id="qpl-iy-z6g">
-                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="add" id="uuj-pO-11W">
+                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="search" id="uuj-pO-11W">
                             <connections>
                                 <action selector="newDevice:" destination="BYZ-38-t0r" id="hSZ-3s-G5n"/>
                             </connections>
