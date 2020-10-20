@@ -6,34 +6,6 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>16F11F8A-8290-43A4-81C4-03B4D38F6990</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
-			<key>fileName</key>
-			<string>16F11F8A-8290-43A4-81C4-03B4D38F6990.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>Pods-SmartHome-fxabsadxzyybjahkwykoaduoizwc</string>
-			<key>timeStartedRecording</key>
-			<real>624383248.10868704</real>
-			<key>timeStoppedRecording</key>
-			<real>624383248.96933496</real>
-			<key>title</key>
-			<string>Build target Pods-SmartHome</string>
-			<key>uniqueIdentifier</key>
-			<string>16F11F8A-8290-43A4-81C4-03B4D38F6990</string>
-		</dict>
 		<key>3A40E405-A9EA-42DD-B409-4FEC09F9EB27</key>
 		<dict>
 			<key>className</key>
@@ -62,7 +34,7 @@
 			<key>uniqueIdentifier</key>
 			<string>3A40E405-A9EA-42DD-B409-4FEC09F9EB27</string>
 		</dict>
-		<key>9B87AB98-A189-4FB8-A8AF-C9D6BE477B5A</key>
+		<key>3F0D0D37-1B98-4F27-BA55-CF62DF2D151F</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -71,7 +43,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>9B87AB98-A189-4FB8-A8AF-C9D6BE477B5A.xcactivitylog</string>
+			<string>3F0D0D37-1B98-4F27-BA55-CF62DF2D151F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -82,15 +54,15 @@
 			<key>signature</key>
 			<string>SmartHome-bbomqdlymejrfebhqswthtpaxwtj</string>
 			<key>timeStartedRecording</key>
-			<real>624383248.11077595</real>
+			<real>624505118.81363404</real>
 			<key>timeStoppedRecording</key>
-			<real>624383260.30746198</real>
+			<real>624505127.72336996</real>
 			<key>title</key>
 			<string>Build target SmartHome</string>
 			<key>uniqueIdentifier</key>
-			<string>9B87AB98-A189-4FB8-A8AF-C9D6BE477B5A</string>
+			<string>3F0D0D37-1B98-4F27-BA55-CF62DF2D151F</string>
 		</dict>
-		<key>C8258C38-F787-4320-A62A-799903CB261B</key>
+		<key>50337A55-E4FB-4015-8CB1-BF57909C7630</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -99,7 +71,63 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>C8258C38-F787-4320-A62A-799903CB261B.xcactivitylog</string>
+			<string>50337A55-E4FB-4015-8CB1-BF57909C7630.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Pods-SmartHome-fxabsadxzyybjahkwykoaduoizwc</string>
+			<key>timeStartedRecording</key>
+			<real>624466675.55759299</real>
+			<key>timeStoppedRecording</key>
+			<real>624466675.65385103</real>
+			<key>title</key>
+			<string>Build target Pods-SmartHome</string>
+			<key>uniqueIdentifier</key>
+			<string>50337A55-E4FB-4015-8CB1-BF57909C7630</string>
+		</dict>
+		<key>934A42F9-7275-49AD-B1F6-3A1B08F00116</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>934A42F9-7275-49AD-B1F6-3A1B08F00116.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>IQKeyboardManager-fxabsadxzyybjahkwykoaduoizwc</string>
+			<key>timeStartedRecording</key>
+			<real>624466674.54215503</real>
+			<key>timeStoppedRecording</key>
+			<real>624466675.55706298</real>
+			<key>title</key>
+			<string>Build target IQKeyboardManager</string>
+			<key>uniqueIdentifier</key>
+			<string>934A42F9-7275-49AD-B1F6-3A1B08F00116</string>
+		</dict>
+		<key>D52D5656-D6C6-4339-867A-0CB82F0DC438</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>D52D5656-D6C6-4339-867A-0CB82F0DC438.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -110,13 +138,13 @@
 			<key>signature</key>
 			<string>MBProgressHUD-fxabsadxzyybjahkwykoaduoizwc</string>
 			<key>timeStartedRecording</key>
-			<real>624383248.11230302</real>
+			<real>624466673.97957206</real>
 			<key>timeStoppedRecording</key>
-			<real>624383248.86326599</real>
+			<real>624466675.20354295</real>
 			<key>title</key>
 			<string>Build target MBProgressHUD</string>
 			<key>uniqueIdentifier</key>
-			<string>C8258C38-F787-4320-A62A-799903CB261B</string>
+			<string>D52D5656-D6C6-4339-867A-0CB82F0DC438</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

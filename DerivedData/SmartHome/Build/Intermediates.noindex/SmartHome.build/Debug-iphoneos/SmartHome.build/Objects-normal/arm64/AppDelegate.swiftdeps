@@ -7,10 +7,13 @@ provides-member:
 - ["9SmartHome11AppDelegateC", ""]
 provides-dynamic-lookup:
 - "application"
+- "setupKeyboard"
 depends-top-level:
 - "AppDelegate"
+- "AssignmentPrecedence"
 - "Bool"
 - !private "BooleanLiteralType"
+- !private "IQKeyboardManager"
 - "Set"
 - !private "StringLiteralType"
 - "UIApplication"
@@ -21,6 +24,7 @@ depends-top-level:
 - "UISceneSession"
 depends-member:
 - ["9SmartHome11AppDelegateC", "Bool"]
+- !private ["9SmartHome11AppDelegateC", "IQKeyboardManager"]
 - ["9SmartHome11AppDelegateC", "Set"]
 - ["9SmartHome11AppDelegateC", "UIApplication"]
 - ["9SmartHome11AppDelegateC", "UIScene"]
@@ -40,8 +44,10 @@ depends-member:
 - ["9SmartHome11AppDelegateC", "applicationWillTerminate"]
 - ["9SmartHome11AppDelegateC", "deinit"]
 - ["9SmartHome11AppDelegateC", "init"]
+- !private ["9SmartHome11AppDelegateC", "setupKeyboard"]
 - ["9SmartHome11AppDelegateC", "window"]
 - ["s7CVarArgP", "ConnectionOptions"]
+- !private ["s7CVarArgP", "IQKeyboardManager"]
 - ["s7CVarArgP", "LaunchOptionsKey"]
 - !private ["s7CVarArgP", "UISceneConfiguration"]
 - ["s7CVarArgP", ""]
@@ -58,9 +64,13 @@ depends-member:
 - ["s7CVarArgP", "applicationWillResignActive"]
 - ["s7CVarArgP", "applicationWillTerminate"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEnabled"]
 - !private ["s7CVarArgP", "role"]
+- !private ["s7CVarArgP", "setupKeyboard"]
+- !private ["s7CVarArgP", "shared"]
 - ["s7CVarArgP", "window"]
 - ["s28CustomDebugStringConvertibleP", "ConnectionOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "IQKeyboardManager"]
 - ["s28CustomDebugStringConvertibleP", "LaunchOptionsKey"]
 - !private ["s28CustomDebugStringConvertibleP", "UISceneConfiguration"]
 - ["s28CustomDebugStringConvertibleP", ""]
@@ -77,9 +87,13 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "applicationWillResignActive"]
 - ["s28CustomDebugStringConvertibleP", "applicationWillTerminate"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEnabled"]
 - !private ["s28CustomDebugStringConvertibleP", "role"]
+- !private ["s28CustomDebugStringConvertibleP", "setupKeyboard"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
 - ["s28CustomDebugStringConvertibleP", "window"]
 - ["s23CustomStringConvertibleP", "ConnectionOptions"]
+- !private ["s23CustomStringConvertibleP", "IQKeyboardManager"]
 - ["s23CustomStringConvertibleP", "LaunchOptionsKey"]
 - !private ["s23CustomStringConvertibleP", "UISceneConfiguration"]
 - ["s23CustomStringConvertibleP", ""]
@@ -96,9 +110,13 @@ depends-member:
 - ["s23CustomStringConvertibleP", "applicationWillResignActive"]
 - ["s23CustomStringConvertibleP", "applicationWillTerminate"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEnabled"]
 - !private ["s23CustomStringConvertibleP", "role"]
+- !private ["s23CustomStringConvertibleP", "setupKeyboard"]
+- !private ["s23CustomStringConvertibleP", "shared"]
 - ["s23CustomStringConvertibleP", "window"]
 - ["SQ", "ConnectionOptions"]
+- !private ["SQ", "IQKeyboardManager"]
 - ["SQ", "LaunchOptionsKey"]
 - !private ["SQ", "UISceneConfiguration"]
 - ["SQ", ""]
@@ -115,9 +133,13 @@ depends-member:
 - ["SQ", "applicationWillResignActive"]
 - ["SQ", "applicationWillTerminate"]
 - !private ["SQ", "init"]
+- !private ["SQ", "isEnabled"]
 - !private ["SQ", "role"]
+- !private ["SQ", "setupKeyboard"]
+- !private ["SQ", "shared"]
 - ["SQ", "window"]
 - ["SH", "ConnectionOptions"]
+- !private ["SH", "IQKeyboardManager"]
 - ["SH", "LaunchOptionsKey"]
 - !private ["SH", "UISceneConfiguration"]
 - ["SH", ""]
@@ -134,13 +156,19 @@ depends-member:
 - ["SH", "applicationWillResignActive"]
 - ["SH", "applicationWillTerminate"]
 - !private ["SH", "init"]
+- !private ["SH", "isEnabled"]
 - !private ["SH", "role"]
+- !private ["SH", "setupKeyboard"]
+- !private ["SH", "shared"]
 - ["SH", "window"]
+- !private ["So17IQKeyboardManagerC", "isEnabled"]
+- !private ["So17IQKeyboardManagerC", "shared"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "role"]
 - !private ["So9NSCopyingP", "init"]
 - ["So8NSObjectC", "Bool"]
 - ["So8NSObjectC", "ConnectionOptions"]
+- !private ["So8NSObjectC", "IQKeyboardManager"]
 - ["So8NSObjectC", "LaunchOptionsKey"]
 - ["So8NSObjectC", "Set"]
 - ["So8NSObjectC", "UIApplication"]
@@ -160,9 +188,13 @@ depends-member:
 - ["So8NSObjectC", "applicationWillResignActive"]
 - ["So8NSObjectC", "applicationWillTerminate"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isEnabled"]
 - !private ["So8NSObjectC", "role"]
+- ["So8NSObjectC", "setupKeyboard"]
+- !private ["So8NSObjectC", "shared"]
 - ["So8NSObjectC", "window"]
 - ["So8NSObjectP", "ConnectionOptions"]
+- !private ["So8NSObjectP", "IQKeyboardManager"]
 - ["So8NSObjectP", "LaunchOptionsKey"]
 - !private ["So8NSObjectP", "UISceneConfiguration"]
 - ["So8NSObjectP", ""]
@@ -179,11 +211,15 @@ depends-member:
 - ["So8NSObjectP", "applicationWillResignActive"]
 - ["So8NSObjectP", "applicationWillTerminate"]
 - !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isEnabled"]
 - !private ["So8NSObjectP", "role"]
+- !private ["So8NSObjectP", "setupKeyboard"]
+- !private ["So8NSObjectP", "shared"]
 - ["So8NSObjectP", "window"]
 - !private ["So14NSSecureCodingP", "init"]
 - !private ["So14NSSecureCodingP", "role"]
 - ["So13UIApplicationC", "LaunchOptionsKey"]
+- !private ["So21UIApplicationDelegateP", "IQKeyboardManager"]
 - !private ["So21UIApplicationDelegateP", "UISceneConfiguration"]
 - ["So21UIApplicationDelegateP", ""]
 - ["So21UIApplicationDelegateP", "application"]
@@ -198,8 +234,10 @@ depends-member:
 - ["So21UIApplicationDelegateP", "applicationWillEnterForeground"]
 - ["So21UIApplicationDelegateP", "applicationWillResignActive"]
 - ["So21UIApplicationDelegateP", "applicationWillTerminate"]
+- !private ["So21UIApplicationDelegateP", "setupKeyboard"]
 - ["So21UIApplicationDelegateP", "window"]
 - ["So30UIPasteConfigurationSupportingP", "ConnectionOptions"]
+- !private ["So30UIPasteConfigurationSupportingP", "IQKeyboardManager"]
 - ["So30UIPasteConfigurationSupportingP", "LaunchOptionsKey"]
 - !private ["So30UIPasteConfigurationSupportingP", "UISceneConfiguration"]
 - ["So30UIPasteConfigurationSupportingP", ""]
@@ -215,9 +253,11 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "applicationWillEnterForeground"]
 - ["So30UIPasteConfigurationSupportingP", "applicationWillResignActive"]
 - ["So30UIPasteConfigurationSupportingP", "applicationWillTerminate"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupKeyboard"]
 - ["So30UIPasteConfigurationSupportingP", "window"]
 - ["So11UIResponderC", "Bool"]
 - ["So11UIResponderC", "ConnectionOptions"]
+- !private ["So11UIResponderC", "IQKeyboardManager"]
 - ["So11UIResponderC", "LaunchOptionsKey"]
 - ["So11UIResponderC", "Set"]
 - ["So11UIResponderC", "UIApplication"]
@@ -238,8 +278,10 @@ depends-member:
 - ["So11UIResponderC", "applicationWillResignActive"]
 - ["So11UIResponderC", "applicationWillTerminate"]
 - ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "setupKeyboard"]
 - ["So11UIResponderC", "window"]
 - ["So30UIResponderStandardEditActionsP", "ConnectionOptions"]
+- !private ["So30UIResponderStandardEditActionsP", "IQKeyboardManager"]
 - ["So30UIResponderStandardEditActionsP", "LaunchOptionsKey"]
 - !private ["So30UIResponderStandardEditActionsP", "UISceneConfiguration"]
 - ["So30UIResponderStandardEditActionsP", ""]
@@ -255,11 +297,13 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "applicationWillEnterForeground"]
 - ["So30UIResponderStandardEditActionsP", "applicationWillResignActive"]
 - ["So30UIResponderStandardEditActionsP", "applicationWillTerminate"]
+- !private ["So30UIResponderStandardEditActionsP", "setupKeyboard"]
 - ["So30UIResponderStandardEditActionsP", "window"]
 - ["So7UISceneC", "ConnectionOptions"]
 - !private ["So20UISceneConfigurationC", "init"]
 - !private ["So14UISceneSessionC", "role"]
 - ["So23UIUserActivityRestoringP", "ConnectionOptions"]
+- !private ["So23UIUserActivityRestoringP", "IQKeyboardManager"]
 - ["So23UIUserActivityRestoringP", "LaunchOptionsKey"]
 - !private ["So23UIUserActivityRestoringP", "UISceneConfiguration"]
 - ["So23UIUserActivityRestoringP", ""]
@@ -275,8 +319,10 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "applicationWillEnterForeground"]
 - ["So23UIUserActivityRestoringP", "applicationWillResignActive"]
 - ["So23UIUserActivityRestoringP", "applicationWillTerminate"]
+- !private ["So23UIUserActivityRestoringP", "setupKeyboard"]
 - ["So23UIUserActivityRestoringP", "window"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "ConnectionOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "IQKeyboardManager"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "LaunchOptionsKey"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UISceneConfiguration"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
@@ -293,9 +339,13 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillResignActive"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillTerminate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEnabled"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "role"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupKeyboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ConnectionOptions"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "IQKeyboardManager"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LaunchOptionsKey"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UISceneConfiguration"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
@@ -312,7 +362,10 @@ depends-member:
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationWillResignActive"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationWillTerminate"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isEnabled"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "role"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setupKeyboard"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "window"]
 depends-nominal:
 - "9SmartHome11AppDelegateC"
@@ -321,6 +374,7 @@ depends-nominal:
 - "s23CustomStringConvertibleP"
 - "SQ"
 - "SH"
+- !private "So17IQKeyboardManagerC"
 - !private "So8NSCodingP"
 - !private "So9NSCopyingP"
 - "So8NSObjectC"
@@ -354,7 +408,22 @@ depends-external:
 - "/Applications/Xcode 11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD.h"
 - "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-umbrella.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardManager-umbrella.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQBarButtonItem.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQTitleBarButtonItem.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQToolbar.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIView+IQKeyboardToolbar.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardManager.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardReturnKeyHandler.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIViewController+Additions.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUITextFieldView+Additions.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIScrollView+Additions.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardManagerConstants.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQPreviousNextView.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQTextView.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIView+Hierarchy.h"
 - "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Modules/module.modulemap"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Modules/module.modulemap"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
@@ -369,4 +438,4 @@ depends-external:
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "32f3f7f8fec1db170f4a48cd26aba846"
+interface-hash: "033b0ae54abb2a96373445cd6199846c"

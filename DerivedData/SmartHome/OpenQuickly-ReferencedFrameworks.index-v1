@@ -2,11 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-	<string>CoreGraphics</string>
 	<string>XCTest</string>
-	<string>CoreBluetooth</string>
-	<string>MBProgressHUD</string>
+	<string>IQKeyboardManager</string>
 	<string>SmartHome</string>
+	<string>CoreBluetooth</string>
+	<string>CoreGraphics</string>
+	<string>QuartzCore</string>
+	<string>objc</string>
+	<string>MBProgressHUD</string>
 	<string>UIKit</string>
 	<string>Foundation</string>
 </array>

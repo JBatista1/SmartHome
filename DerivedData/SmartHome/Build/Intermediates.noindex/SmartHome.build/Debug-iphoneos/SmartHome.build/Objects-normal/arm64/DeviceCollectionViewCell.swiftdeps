@@ -6,122 +6,449 @@ provides-nominal:
 provides-member:
 - ["9SmartHome24DeviceCollectionViewCellC", ""]
 provides-dynamic-lookup:
-- "awakeFromNib"
-- "deviceName"
-- "devidePhoto"
+- "chnageStatus"
+- "imageDevice"
+- "nameDevice"
+- "prepareCell"
+- "status"
+- "statusDevice"
 depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Device"
 - "DeviceCollectionViewCell"
+- !private "StringLiteralType"
 - "UICollectionViewCell"
 - "UIImageView"
 - "UILabel"
 depends-member:
+- !private ["Sb", "toggle"]
 - ["So15CALayerDelegateP", ""]
-- !private ["So15CALayerDelegateP", "awakeFromNib"]
+- !private ["So15CALayerDelegateP", "image"]
+- !private ["So15CALayerDelegateP", "imageDevice"]
+- !private ["So15CALayerDelegateP", "nameDevice"]
+- !private ["So15CALayerDelegateP", "status"]
+- !private ["So15CALayerDelegateP", "statusDevice"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "textColor"]
+- !private ["So15CALayerDelegateP", "tintColor"]
 - ["s7CVarArgP", ""]
-- !private ["s7CVarArgP", "awakeFromNib"]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "imageDevice"]
+- !private ["s7CVarArgP", "nameDevice"]
+- !private ["s7CVarArgP", "red"]
+- !private ["s7CVarArgP", "status"]
+- !private ["s7CVarArgP", "statusDevice"]
+- !private ["s7CVarArgP", "systemGreen"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "textColor"]
+- !private ["s7CVarArgP", "tintColor"]
+- !private ["s7CVarArgP", "toggle"]
 - ["s28CustomDebugStringConvertibleP", ""]
-- !private ["s28CustomDebugStringConvertibleP", "awakeFromNib"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "imageDevice"]
+- !private ["s28CustomDebugStringConvertibleP", "nameDevice"]
+- !private ["s28CustomDebugStringConvertibleP", "red"]
+- !private ["s28CustomDebugStringConvertibleP", "status"]
+- !private ["s28CustomDebugStringConvertibleP", "statusDevice"]
+- !private ["s28CustomDebugStringConvertibleP", "systemGreen"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "textColor"]
+- !private ["s28CustomDebugStringConvertibleP", "tintColor"]
+- !private ["s17CustomReflectableP", "image"]
+- !private ["s17CustomReflectableP", "red"]
+- !private ["s17CustomReflectableP", "systemGreen"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s17CustomReflectableP", "textColor"]
+- !private ["s17CustomReflectableP", "tintColor"]
+- !private ["s17CustomReflectableP", "toggle"]
 - ["s23CustomStringConvertibleP", ""]
-- !private ["s23CustomStringConvertibleP", "awakeFromNib"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "imageDevice"]
+- !private ["s23CustomStringConvertibleP", "nameDevice"]
+- !private ["s23CustomStringConvertibleP", "red"]
+- !private ["s23CustomStringConvertibleP", "status"]
+- !private ["s23CustomStringConvertibleP", "statusDevice"]
+- !private ["s23CustomStringConvertibleP", "systemGreen"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "textColor"]
+- !private ["s23CustomStringConvertibleP", "tintColor"]
+- !private ["s23CustomStringConvertibleP", "toggle"]
+- !private ["Se", "image"]
+- !private ["Se", "red"]
+- !private ["Se", "systemGreen"]
+- !private ["Se", "text"]
+- !private ["Se", "textColor"]
+- !private ["Se", "tintColor"]
+- !private ["Se", "toggle"]
+- !private ["9SmartHome6DeviceV", "image"]
+- !private ["9SmartHome6DeviceV", "name"]
+- ["9SmartHome24DeviceCollectionViewCellC", "Bool"]
+- ["9SmartHome24DeviceCollectionViewCellC", "Device"]
 - ["9SmartHome24DeviceCollectionViewCellC", "UIImageView"]
 - ["9SmartHome24DeviceCollectionViewCellC", "UILabel"]
-- ["9SmartHome24DeviceCollectionViewCellC", "awakeFromNib"]
+- ["9SmartHome24DeviceCollectionViewCellC", "chnageStatus"]
 - ["9SmartHome24DeviceCollectionViewCellC", "deinit"]
-- ["9SmartHome24DeviceCollectionViewCellC", "deviceName"]
-- ["9SmartHome24DeviceCollectionViewCellC", "devidePhoto"]
+- ["9SmartHome24DeviceCollectionViewCellC", "imageDevice"]
 - ["9SmartHome24DeviceCollectionViewCellC", "init"]
+- ["9SmartHome24DeviceCollectionViewCellC", "nameDevice"]
+- ["9SmartHome24DeviceCollectionViewCellC", "prepareCell"]
+- ["9SmartHome24DeviceCollectionViewCellC", "status"]
+- !private ["9SmartHome24DeviceCollectionViewCellC", "statusDevice"]
+- !private ["SE", "image"]
+- !private ["SE", "red"]
+- !private ["SE", "systemGreen"]
+- !private ["SE", "text"]
+- !private ["SE", "textColor"]
+- !private ["SE", "tintColor"]
+- !private ["SE", "toggle"]
 - ["SQ", ""]
-- !private ["SQ", "awakeFromNib"]
+- !private ["SQ", "image"]
+- !private ["SQ", "imageDevice"]
+- !private ["SQ", "nameDevice"]
+- !private ["SQ", "red"]
+- !private ["SQ", "status"]
+- !private ["SQ", "statusDevice"]
+- !private ["SQ", "systemGreen"]
+- !private ["SQ", "text"]
+- !private ["SQ", "textColor"]
+- !private ["SQ", "tintColor"]
+- !private ["SQ", "toggle"]
+- !private ["s27ExpressibleByBooleanLiteralP", "toggle"]
+- !private ["s23ExpressibleByNilLiteralP", "image"]
+- !private ["s23ExpressibleByNilLiteralP", "red"]
+- !private ["s23ExpressibleByNilLiteralP", "systemGreen"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["s23ExpressibleByNilLiteralP", "textColor"]
+- !private ["s23ExpressibleByNilLiteralP", "tintColor"]
 - ["SH", ""]
-- !private ["SH", "awakeFromNib"]
+- !private ["SH", "image"]
+- !private ["SH", "imageDevice"]
+- !private ["SH", "nameDevice"]
+- !private ["SH", "red"]
+- !private ["SH", "status"]
+- !private ["SH", "statusDevice"]
+- !private ["SH", "systemGreen"]
+- !private ["SH", "text"]
+- !private ["SH", "textColor"]
+- !private ["SH", "tintColor"]
+- !private ["SH", "toggle"]
+- !private ["s25LosslessStringConvertibleP", "toggle"]
 - ["So8NSCodingP", ""]
-- !private ["So8NSCodingP", "awakeFromNib"]
+- !private ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "imageDevice"]
+- !private ["So8NSCodingP", "nameDevice"]
+- !private ["So8NSCodingP", "red"]
+- !private ["So8NSCodingP", "status"]
+- !private ["So8NSCodingP", "statusDevice"]
+- !private ["So8NSCodingP", "systemGreen"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "textColor"]
+- !private ["So8NSCodingP", "tintColor"]
+- !private ["So9NSCopyingP", "red"]
+- !private ["So9NSCopyingP", "systemGreen"]
+- !private ["So21NSItemProviderReadingP", "red"]
+- !private ["So21NSItemProviderReadingP", "systemGreen"]
+- !private ["So21NSItemProviderWritingP", "red"]
+- !private ["So21NSItemProviderWritingP", "systemGreen"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Device"]
 - ["So8NSObjectC", "UIImageView"]
 - ["So8NSObjectC", "UILabel"]
-- ["So8NSObjectC", "awakeFromNib"]
-- ["So8NSObjectC", "deviceName"]
-- ["So8NSObjectC", "devidePhoto"]
+- ["So8NSObjectC", "chnageStatus"]
+- !private ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "imageDevice"]
 - ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "nameDevice"]
+- ["So8NSObjectC", "prepareCell"]
+- !private ["So8NSObjectC", "red"]
+- ["So8NSObjectC", "status"]
+- ["So8NSObjectC", "statusDevice"]
+- !private ["So8NSObjectC", "systemGreen"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "textColor"]
+- !private ["So8NSObjectC", "tintColor"]
 - ["So8NSObjectP", ""]
-- !private ["So8NSObjectP", "awakeFromNib"]
+- !private ["So8NSObjectP", "image"]
+- !private ["So8NSObjectP", "imageDevice"]
+- !private ["So8NSObjectP", "nameDevice"]
+- !private ["So8NSObjectP", "red"]
+- !private ["So8NSObjectP", "status"]
+- !private ["So8NSObjectP", "statusDevice"]
+- !private ["So8NSObjectP", "systemGreen"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "textColor"]
+- !private ["So8NSObjectP", "tintColor"]
+- !private ["So14NSSecureCodingP", "red"]
+- !private ["So14NSSecureCodingP", "systemGreen"]
+- !private ["Sq", "image"]
+- !private ["Sq", "red"]
+- !private ["Sq", "systemGreen"]
+- !private ["Sq", "text"]
+- !private ["Sq", "textColor"]
+- !private ["Sq", "tintColor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
 - ["So29UIAccessibilityIdentificationP", ""]
-- !private ["So29UIAccessibilityIdentificationP", "awakeFromNib"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "imageDevice"]
+- !private ["So29UIAccessibilityIdentificationP", "nameDevice"]
+- !private ["So29UIAccessibilityIdentificationP", "status"]
+- !private ["So29UIAccessibilityIdentificationP", "statusDevice"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "textColor"]
+- !private ["So29UIAccessibilityIdentificationP", "tintColor"]
 - ["So12UIAppearanceP", ""]
-- !private ["So12UIAppearanceP", "awakeFromNib"]
+- !private ["So12UIAppearanceP", "image"]
+- !private ["So12UIAppearanceP", "imageDevice"]
+- !private ["So12UIAppearanceP", "nameDevice"]
+- !private ["So12UIAppearanceP", "status"]
+- !private ["So12UIAppearanceP", "statusDevice"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "textColor"]
+- !private ["So12UIAppearanceP", "tintColor"]
 - ["So21UIAppearanceContainerP", ""]
-- !private ["So21UIAppearanceContainerP", "awakeFromNib"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- !private ["So21UIAppearanceContainerP", "imageDevice"]
+- !private ["So21UIAppearanceContainerP", "nameDevice"]
+- !private ["So21UIAppearanceContainerP", "status"]
+- !private ["So21UIAppearanceContainerP", "statusDevice"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "textColor"]
+- !private ["So21UIAppearanceContainerP", "tintColor"]
+- ["So24UICollectionReusableViewC", "Bool"]
+- ["So24UICollectionReusableViewC", "Device"]
 - ["So24UICollectionReusableViewC", "UIImageView"]
 - ["So24UICollectionReusableViewC", "UILabel"]
-- ["So24UICollectionReusableViewC", "awakeFromNib"]
-- ["So24UICollectionReusableViewC", "deviceName"]
-- ["So24UICollectionReusableViewC", "devidePhoto"]
+- ["So24UICollectionReusableViewC", "chnageStatus"]
+- ["So24UICollectionReusableViewC", "imageDevice"]
 - ["So24UICollectionReusableViewC", "init"]
+- ["So24UICollectionReusableViewC", "nameDevice"]
+- ["So24UICollectionReusableViewC", "prepareCell"]
+- ["So24UICollectionReusableViewC", "status"]
+- ["So24UICollectionReusableViewC", "statusDevice"]
+- ["So20UICollectionViewCellC", "Bool"]
+- ["So20UICollectionViewCellC", "Device"]
 - ["So20UICollectionViewCellC", "UIImageView"]
 - ["So20UICollectionViewCellC", "UILabel"]
 - ["So20UICollectionViewCellC", ""]
-- ["So20UICollectionViewCellC", "awakeFromNib"]
-- ["So20UICollectionViewCellC", "deviceName"]
-- ["So20UICollectionViewCellC", "devidePhoto"]
+- ["So20UICollectionViewCellC", "chnageStatus"]
+- ["So20UICollectionViewCellC", "imageDevice"]
 - ["So20UICollectionViewCellC", "init"]
+- ["So20UICollectionViewCellC", "nameDevice"]
+- ["So20UICollectionViewCellC", "prepareCell"]
+- ["So20UICollectionViewCellC", "status"]
+- ["So20UICollectionViewCellC", "statusDevice"]
+- !private ["So7UIColorC", "red"]
+- !private ["So7UIColorC", "systemGreen"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "textColor"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "tintColor"]
 - ["So17UICoordinateSpaceP", ""]
-- !private ["So17UICoordinateSpaceP", "awakeFromNib"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- !private ["So17UICoordinateSpaceP", "imageDevice"]
+- !private ["So17UICoordinateSpaceP", "nameDevice"]
+- !private ["So17UICoordinateSpaceP", "status"]
+- !private ["So17UICoordinateSpaceP", "statusDevice"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "textColor"]
+- !private ["So17UICoordinateSpaceP", "tintColor"]
 - ["So13UIDynamicItemP", ""]
-- !private ["So13UIDynamicItemP", "awakeFromNib"]
+- !private ["So13UIDynamicItemP", "image"]
+- !private ["So13UIDynamicItemP", "imageDevice"]
+- !private ["So13UIDynamicItemP", "nameDevice"]
+- !private ["So13UIDynamicItemP", "status"]
+- !private ["So13UIDynamicItemP", "statusDevice"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "textColor"]
+- !private ["So13UIDynamicItemP", "tintColor"]
 - ["So18UIFocusEnvironmentP", ""]
-- !private ["So18UIFocusEnvironmentP", "awakeFromNib"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- !private ["So18UIFocusEnvironmentP", "imageDevice"]
+- !private ["So18UIFocusEnvironmentP", "nameDevice"]
+- !private ["So18UIFocusEnvironmentP", "status"]
+- !private ["So18UIFocusEnvironmentP", "statusDevice"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "textColor"]
+- !private ["So18UIFocusEnvironmentP", "tintColor"]
 - ["So11UIFocusItemP", ""]
-- !private ["So11UIFocusItemP", "awakeFromNib"]
+- !private ["So11UIFocusItemP", "image"]
+- !private ["So11UIFocusItemP", "imageDevice"]
+- !private ["So11UIFocusItemP", "nameDevice"]
+- !private ["So11UIFocusItemP", "status"]
+- !private ["So11UIFocusItemP", "statusDevice"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "textColor"]
+- !private ["So11UIFocusItemP", "tintColor"]
 - ["So20UIFocusItemContainerP", ""]
-- !private ["So20UIFocusItemContainerP", "awakeFromNib"]
+- !private ["So20UIFocusItemContainerP", "image"]
+- !private ["So20UIFocusItemContainerP", "imageDevice"]
+- !private ["So20UIFocusItemContainerP", "nameDevice"]
+- !private ["So20UIFocusItemContainerP", "status"]
+- !private ["So20UIFocusItemContainerP", "statusDevice"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So20UIFocusItemContainerP", "textColor"]
+- !private ["So20UIFocusItemContainerP", "tintColor"]
+- !private ["So11UIImageViewC", "image"]
+- !private ["So7UILabelC", "text"]
+- !private ["So7UILabelC", "textColor"]
+- !private ["So7UILabelC", "tintColor"]
 - ["So24UILargeContentViewerItemP", ""]
-- !private ["So24UILargeContentViewerItemP", "awakeFromNib"]
+- !private ["So24UILargeContentViewerItemP", "image"]
+- !private ["So24UILargeContentViewerItemP", "imageDevice"]
+- !private ["So24UILargeContentViewerItemP", "nameDevice"]
+- !private ["So24UILargeContentViewerItemP", "status"]
+- !private ["So24UILargeContentViewerItemP", "statusDevice"]
+- !private ["So24UILargeContentViewerItemP", "text"]
+- !private ["So24UILargeContentViewerItemP", "textColor"]
+- !private ["So24UILargeContentViewerItemP", "tintColor"]
 - ["So30UIPasteConfigurationSupportingP", ""]
-- !private ["So30UIPasteConfigurationSupportingP", "awakeFromNib"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- !private ["So30UIPasteConfigurationSupportingP", "imageDevice"]
+- !private ["So30UIPasteConfigurationSupportingP", "nameDevice"]
+- !private ["So30UIPasteConfigurationSupportingP", "status"]
+- !private ["So30UIPasteConfigurationSupportingP", "statusDevice"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "textColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "tintColor"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "Device"]
 - ["So11UIResponderC", "UIImageView"]
 - ["So11UIResponderC", "UILabel"]
-- ["So11UIResponderC", "awakeFromNib"]
-- ["So11UIResponderC", "deviceName"]
-- ["So11UIResponderC", "devidePhoto"]
+- ["So11UIResponderC", "chnageStatus"]
+- !private ["So11UIResponderC", "image"]
+- ["So11UIResponderC", "imageDevice"]
 - ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "nameDevice"]
+- ["So11UIResponderC", "prepareCell"]
+- ["So11UIResponderC", "status"]
+- ["So11UIResponderC", "statusDevice"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "textColor"]
+- !private ["So11UIResponderC", "tintColor"]
 - ["So30UIResponderStandardEditActionsP", ""]
-- !private ["So30UIResponderStandardEditActionsP", "awakeFromNib"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- !private ["So30UIResponderStandardEditActionsP", "imageDevice"]
+- !private ["So30UIResponderStandardEditActionsP", "nameDevice"]
+- !private ["So30UIResponderStandardEditActionsP", "status"]
+- !private ["So30UIResponderStandardEditActionsP", "statusDevice"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "textColor"]
+- !private ["So30UIResponderStandardEditActionsP", "tintColor"]
 - ["So18UITraitEnvironmentP", ""]
-- !private ["So18UITraitEnvironmentP", "awakeFromNib"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- !private ["So18UITraitEnvironmentP", "imageDevice"]
+- !private ["So18UITraitEnvironmentP", "nameDevice"]
+- !private ["So18UITraitEnvironmentP", "status"]
+- !private ["So18UITraitEnvironmentP", "statusDevice"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "textColor"]
+- !private ["So18UITraitEnvironmentP", "tintColor"]
 - ["So23UIUserActivityRestoringP", ""]
-- !private ["So23UIUserActivityRestoringP", "awakeFromNib"]
+- !private ["So23UIUserActivityRestoringP", "image"]
+- !private ["So23UIUserActivityRestoringP", "imageDevice"]
+- !private ["So23UIUserActivityRestoringP", "nameDevice"]
+- !private ["So23UIUserActivityRestoringP", "status"]
+- !private ["So23UIUserActivityRestoringP", "statusDevice"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "textColor"]
+- !private ["So23UIUserActivityRestoringP", "tintColor"]
+- ["So6UIViewC", "Bool"]
+- ["So6UIViewC", "Device"]
 - ["So6UIViewC", "UIImageView"]
 - ["So6UIViewC", "UILabel"]
-- ["So6UIViewC", "awakeFromNib"]
-- ["So6UIViewC", "deviceName"]
-- ["So6UIViewC", "devidePhoto"]
+- ["So6UIViewC", "chnageStatus"]
+- !private ["So6UIViewC", "image"]
+- ["So6UIViewC", "imageDevice"]
 - ["So6UIViewC", "init"]
+- ["So6UIViewC", "nameDevice"]
+- ["So6UIViewC", "prepareCell"]
+- ["So6UIViewC", "status"]
+- ["So6UIViewC", "statusDevice"]
+- !private ["So6UIViewC", "text"]
+- !private ["So6UIViewC", "textColor"]
+- !private ["So6UIViewC", "tintColor"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "toggle"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "toggle"]
+- !private ["s26_ExpressibleByColorLiteralP", "red"]
+- !private ["s26_ExpressibleByColorLiteralP", "systemGreen"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "awakeFromNib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageDevice"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nameDevice"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "red"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "status"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusDevice"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "systemGreen"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tintColor"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "awakeFromNib"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "image"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imageDevice"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "nameDevice"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "red"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "status"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "statusDevice"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "systemGreen"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "textColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tintColor"]
+- !private ["s21_ObjectiveCBridgeableP", "image"]
+- !private ["s21_ObjectiveCBridgeableP", "red"]
+- !private ["s21_ObjectiveCBridgeableP", "systemGreen"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s21_ObjectiveCBridgeableP", "textColor"]
+- !private ["s21_ObjectiveCBridgeableP", "tintColor"]
+- !private ["s21_ObjectiveCBridgeableP", "toggle"]
 - ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
-- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "awakeFromNib"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "imageDevice"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "nameDevice"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "status"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "statusDevice"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "textColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "tintColor"]
 depends-nominal:
+- !private "Sb"
 - "So15CALayerDelegateP"
 - "s7CVarArgP"
 - "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "9SmartHome6DeviceV"
 - "9SmartHome24DeviceCollectionViewCellC"
+- !private "SE"
 - "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
 - "SH"
+- !private "s25LosslessStringConvertibleP"
 - "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sq"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
 - "So24UICollectionReusableViewC"
 - "So20UICollectionViewCellC"
+- !private "So7UIColorC"
+- !private "So30UIContentSizeCategoryAdjustingP"
 - "So17UICoordinateSpaceP"
 - "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
 - "So11UIFocusItemP"
 - "So20UIFocusItemContainerP"
+- !private "So11UIImageViewC"
+- !private "So7UILabelC"
 - "So24UILargeContentViewerItemP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
@@ -129,8 +456,12 @@ depends-nominal:
 - "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
 - "So6UIViewC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
 - "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
 depends-external:
@@ -149,7 +480,22 @@ depends-external:
 - "/Applications/Xcode 11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD.h"
 - "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-umbrella.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardManager-umbrella.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQBarButtonItem.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQTitleBarButtonItem.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQToolbar.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIView+IQKeyboardToolbar.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardManager.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardReturnKeyHandler.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIViewController+Additions.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUITextFieldView+Additions.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIScrollView+Additions.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardManagerConstants.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQPreviousNextView.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQTextView.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIView+Hierarchy.h"
 - "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Modules/module.modulemap"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Modules/module.modulemap"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
@@ -164,4 +510,4 @@ depends-external:
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "8268331968b480a74edaf737b184a44f"
+interface-hash: "0b87aeecf8c44e6a49c72b3a08cf7623"

@@ -4,13 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		uFpilrGb7pKl6JxMstmk7dEg28Q=
+		</data>
+		<key>AppIcon76x76@2x~ipad.png</key>
+		<data>
+		pYoLByE0iGCn0mo4d2OZfOeQWsE=
+		</data>
 		<key>Assets.car</key>
 		<data>
-		FxNhOfipmdCF8lMmi9vtpHfDH8o=
+		WHzxAJKaurjEByAtr7hluOsdbMs=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		ki4T1fCmNLe/fCiUsSOvTLhOAyc=
+		9xGzt6BgqoOIcyXQ3JHvW3tXsi0=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -18,31 +26,59 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		vDf7RZAsNAecO1FXqtyAQoZCbQ4=
+		rF1W9DtWG6E2DDSvtCXVngqD5gU=
 		</data>
 		<key>Base.lproj/Main.storyboardc/A9z-G6-mBa-view-9aW-ei-N6D.nib</key>
 		<data>
-		wFZSbl1n3QByqtDDqpE7NPOqVfU=
+		v9X1JQS6JvXo9S/jH+EyOcaAQM8=
+		</data>
+		<key>Base.lproj/Main.storyboardc/AddDeviceViewController.nib</key>
+		<data>
+		sZYJd/SrgtnGpe0v7QYSgSk49vE=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		ybNGfsW2B5oETY4lUEFJJEbWNrs=
+		wv7Q+H6aa1KWMosGsvX9yPVy7vk=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		rEZqthkDUl5dofM+GKnhLRKLq2E=
+		lP5L+68e8BN4MZGPMeHH0YG2u3U=
+		</data>
+		<key>Base.lproj/Main.storyboardc/QAF-GU-ivA-view-ynZ-1M-uHC.nib</key>
+		<data>
+		d8F2Lu6TnKFN85Xr5+XM8SfSRaY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/SecondViewController.nib</key>
 		<data>
-		blhmEIXMzklVsFySvyintqxFMXc=
+		L1C8+FTSKkvjzPHxmcnG99lJZk0=
+		</data>
+		<key>Base.lproj/Main.storyboardc/SelectedImageViewController.nib</key>
+		<data>
+		C71VpTtL45TD5+u50xOZOjzl3x0=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-KiJ-xD-DlY.nib</key>
 		<data>
-		RNxfa8sPzMR+lu8uxdBfkr6ZQrk=
+		NEcvvah3wSFhLnctQ0eRJ5zE2Ag=
 		</data>
-		<key>DeviceCollectionViewCell.nib</key>
+		<key>Base.lproj/Main.storyboardc/Y3w-pQ-8ez-view-Lii-gR-akm.nib</key>
 		<data>
-		Bl5X9Uq7Nh89KTot3fs6KhROsQU=
+		vc9NqTxxmCUK12VrJ17k8pEkYRE=
+		</data>
+		<key>DevicesHomeCollectionViewCell.nib</key>
+		<data>
+		xfYJ+SYMa/Ib04t2REo6U5dJrkI=
+		</data>
+		<key>Frameworks/IQKeyboardManager.framework/IQKeyboardManager</key>
+		<data>
+		KuO2Kv93wwIghMQ2Pn+WM2ehJg0=
+		</data>
+		<key>Frameworks/IQKeyboardManager.framework/Info.plist</key>
+		<data>
+		eGDtVTBQiTDn3Z8F1iLU+wJNGLc=
+		</data>
+		<key>Frameworks/IQKeyboardManager.framework/_CodeSignature/CodeResources</key>
+		<data>
+		OEqfeu3RcGKeYLSkT18l/8rHrxs=
 		</data>
 		<key>Frameworks/MBProgressHUD.framework/Info.plist</key>
 		<data>
@@ -50,7 +86,7 @@
 		</data>
 		<key>Frameworks/MBProgressHUD.framework/MBProgressHUD</key>
 		<data>
-		iCG3VUUQkmZi8e+p3kHYIhgS1/0=
+		9KuiZ9g+pE767qomokX2Yquvm2g=
 		</data>
 		<key>Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -58,7 +94,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ViKKJ7VadgJ1qRdfHEjScrzrtLg=
+		q7bVV9rguEw3aLi45ybSmNGN6q8=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -71,18 +107,32 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0wmmRLNwFfi8NM7bz57JOs4LIJMWzkp2/3mNL0905iw=
+			</data>
+		</dict>
+		<key>AppIcon76x76@2x~ipad.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1ltPc+VfowtYEiQHNf7qIYvQENGR+vKcKEN+x8h13l8=
+			</data>
+		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1eEBQFJfsJ5EIKYVgYt0RfDlSQRSFJqc3n4YVNqIxgY=
+			05fIaJxWmT0ti0jTRf/s3zv4nbunHzrroQER798YjT8=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W8CPnwXVjMenXetzsv/NqM4kS9mYNzKsS1+kKTevC6w=
+			fZTBZI8t3uIlETNB6YE1UQrY6AOkGcydgNIMV9RgBWY=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -96,49 +146,98 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FpXQ38OIHSfEjNRgnbQHc59go5hjGg3ffRObrvbh1o4=
+			WdMEevpFp+VZVYlLlpYDQ1r9fblic+1qWJxWHelImoI=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/A9z-G6-mBa-view-9aW-ei-N6D.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bHwAy9kicYiO0MOF1vxUKlk0NNii5duaceNweWu6lqI=
+			YngoTBj6/zEGGhb7ssAF2MD3s/ZSHAvfSlMjlJtMgck=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/AddDeviceViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8Xe3smzHtGtj0HhxOPM2Gjt5u7uXqfX+ra7X2pv1w5E=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xMVQAUAURT8M9FE8EYx4O8wiclD5MtnMAv+UgmCZsKw=
+			590+TJrQZ/DLaAcew0ImUTAW4CLLQN6XrMYbuPCqPhQ=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7ADbVYrVxoptT0V48+fI6XYnoof5mKCRvvsJ+QA/jpo=
+			An0c4+TJZWC0ZU2Lq3mBL7rn+XxDfwK+EpYGcRmxFO8=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/QAF-GU-ivA-view-ynZ-1M-uHC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wtA0R4X3cnouPDhH3zIaBRnKNbXaHAApjJuX3FBhl7o=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/SecondViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			74jOTxAc/JmJ7mIXeILnbvqIP/KBSYeTXKPhTJbUcaY=
+			hF3PD7pgT4khHC5FCYBaQJYTDQ8JavhFmYvV/4XuzG8=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/SelectedImageViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sO9ztN9AxNXxKDESyS8EfltAzKT9Dlq1V9J6QTYLveU=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-KiJ-xD-DlY.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qS1gXnx6IeiahBcR+VjFh7zACIUTKJdD4kM9MufoW9w=
+			wC+7GHWYhd9TeU+UctIyEC1asdtg+xLBBQNJmtED6OU=
 			</data>
 		</dict>
-		<key>DeviceCollectionViewCell.nib</key>
+		<key>Base.lproj/Main.storyboardc/Y3w-pQ-8ez-view-Lii-gR-akm.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			flmjYjJl/Wt5OWdGD7nlB84r+I8SZGDfCe389qnthRA=
+			+GzZS2tZDTEu/vUru1mu7w50cXcuQt0SmuQvBZZSt0g=
+			</data>
+		</dict>
+		<key>DevicesHomeCollectionViewCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LweCqhw6A/Qn6RQArosdSLirrvBk2YzVmvMicFBbKdQ=
+			</data>
+		</dict>
+		<key>Frameworks/IQKeyboardManager.framework/IQKeyboardManager</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7R2/QL8jTzWtgAZT4+V6HFkUNFUipANB6noY6Oj+jG4=
+			</data>
+		</dict>
+		<key>Frameworks/IQKeyboardManager.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/fuuqR+gQsrK1OWGSTdyP2bPktznkyDRtScBHBsDPF8=
+			</data>
+		</dict>
+		<key>Frameworks/IQKeyboardManager.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ns74iCb47kli3eZWF1zITOZQKPznPg9wVDslv/Kz2G4=
 			</data>
 		</dict>
 		<key>Frameworks/MBProgressHUD.framework/Info.plist</key>
@@ -152,7 +251,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zu5O/YNXttpmFMfMs7vruGFDiImhMEX+2oAObghaNi0=
+			QD3pOFZuPVPjnHqHfyWHsySc+T106G9nvXfjjfPsBn4=
 			</data>
 		</dict>
 		<key>Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources</key>

@@ -7,7 +7,6 @@ provides-member:
 - ["9SmartHome23ImageCollectionViewCellC", ""]
 provides-dynamic-lookup:
 - "imageDevice"
-- "selectedImage"
 depends-top-level:
 - "ImageCollectionViewCell"
 - "UICollectionViewCell"
@@ -23,12 +22,10 @@ depends-member:
 - ["9SmartHome23ImageCollectionViewCellC", "deinit"]
 - ["9SmartHome23ImageCollectionViewCellC", "imageDevice"]
 - ["9SmartHome23ImageCollectionViewCellC", "init"]
-- ["9SmartHome23ImageCollectionViewCellC", "selectedImage"]
 - ["So8NSCodingP", ""]
 - ["So8NSObjectC", "UIImageView"]
 - ["So8NSObjectC", "imageDevice"]
 - ["So8NSObjectC", "init"]
-- ["So8NSObjectC", "selectedImage"]
 - ["So8NSObjectP", ""]
 - ["So29UIAccessibilityIdentificationP", ""]
 - ["So12UIAppearanceP", ""]
@@ -36,12 +33,10 @@ depends-member:
 - ["So24UICollectionReusableViewC", "UIImageView"]
 - ["So24UICollectionReusableViewC", "imageDevice"]
 - ["So24UICollectionReusableViewC", "init"]
-- ["So24UICollectionReusableViewC", "selectedImage"]
 - ["So20UICollectionViewCellC", "UIImageView"]
 - ["So20UICollectionViewCellC", ""]
 - ["So20UICollectionViewCellC", "imageDevice"]
 - ["So20UICollectionViewCellC", "init"]
-- ["So20UICollectionViewCellC", "selectedImage"]
 - ["So17UICoordinateSpaceP", ""]
 - ["So13UIDynamicItemP", ""]
 - ["So18UIFocusEnvironmentP", ""]
@@ -52,14 +47,12 @@ depends-member:
 - ["So11UIResponderC", "UIImageView"]
 - ["So11UIResponderC", "imageDevice"]
 - ["So11UIResponderC", "init"]
-- ["So11UIResponderC", "selectedImage"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - ["So18UITraitEnvironmentP", ""]
 - ["So23UIUserActivityRestoringP", ""]
 - ["So6UIViewC", "UIImageView"]
 - ["So6UIViewC", "imageDevice"]
 - ["So6UIViewC", "init"]
-- ["So6UIViewC", "selectedImage"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
 - ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
@@ -111,7 +104,22 @@ depends-external:
 - "/Applications/Xcode 11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD.h"
 - "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-umbrella.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardManager-umbrella.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQBarButtonItem.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQTitleBarButtonItem.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQToolbar.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIView+IQKeyboardToolbar.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardManager.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardReturnKeyHandler.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIViewController+Additions.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUITextFieldView+Additions.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIScrollView+Additions.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardManagerConstants.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQPreviousNextView.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQTextView.h"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQUIView+Hierarchy.h"
 - "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Modules/module.modulemap"
+- "/Users/ItSelf/Documents/Estudos/Microcontroladores/SmartHome/DerivedData/SmartHome/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Modules/module.modulemap"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
@@ -126,4 +134,4 @@ depends-external:
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "16da9141af2c42742b331ca3e97e2024"
+interface-hash: "b0d2559239ee9a959649fe89f030d10f"
